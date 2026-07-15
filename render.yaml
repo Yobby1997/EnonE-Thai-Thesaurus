@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: enone-thai-thesaurus
+    runtime: node
+    plan: free
+    branch: main
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /health
+    autoDeployTrigger: checksPass
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: NODE_VERSION
+        value: 20
+      - key: RATE_LIMIT_MAX
+        value: 120
+      - key: RATE_LIMIT_WINDOW
+        value: 1 minute
+      - key: CORS_ORIGINS
+        sync: false
