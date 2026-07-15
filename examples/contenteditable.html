@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EnonE Thai Thesaurus Demo</title>
+  <link rel="stylesheet" href="../src/browser/style.css">
+  <style>
+    body { max-width: 760px; margin: 48px auto; padding: 0 20px; font: 18px/1.8 system-ui; }
+    #editor { min-height: 240px; padding: 24px; border: 1px solid; border-radius: 10px; }
+  </style>
+</head>
+<body>
+  <h1>EnonE Thai Thesaurus</h1>
+  <p>ลากคลุมคำว่า “กิน” หรือ “เดิน”</p>
+  <div id="editor" contenteditable="true">เขากินอาหารเสร็จแล้วจึงเดินออกจากห้อง</div>
+  <script type="module">
+    import { attachThaiThesaurus } from "../dist/src/browser/index.js";
+    attachThaiThesaurus(document.querySelector("#editor"));
+  </script>
+</body>
+</html>

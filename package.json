@@ -1,0 +1,50 @@
+{
+  "name": "enone-thai-thesaurus",
+  "version": "0.1.0",
+  "description": "Thai thesaurus SDK and API with part-of-speech and register tags",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/src/index.d.ts",
+      "import": "./dist/src/index.js"
+    },
+    "./browser": {
+      "types": "./dist/src/browser/index.d.ts",
+      "import": "./dist/src/browser/index.js"
+    },
+    "./browser/style.css": "./dist/src/browser/style.css"
+  },
+  "files": [
+    "dist",
+    "data",
+    "!data/generated",
+    "licenses",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node dist/scripts/copy-assets.js",
+    "dev": "tsx src/server.ts",
+    "start": "node dist/src/server.js",
+    "test": "node --import tsx --test test/**/*.test.ts",
+    "import:wordnet": "tsx scripts/import-wordnet.ts",
+    "curate": "tsx scripts/curate-core.ts",
+    "data:build": "npm run import:wordnet -- work/thai-wordnet/wn-data-tha.tab data/generated/wordnet.json && npm run curate"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.0.1",
+    "@fastify/rate-limit": "^11.1.0",
+    "fastify": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env
+data/generated/
+*.log
+*.tgz
+.DS_Store

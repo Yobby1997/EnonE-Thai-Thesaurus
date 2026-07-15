@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "editorial-seed",
+      "name": "EnonE editorial seed data",
+      "license": "MIT",
+      "version": "0.1.0"
+    },
+    {
+      "id": "thai-wordnet",
+      "name": "Thai WordNet",
+      "copyright": "Copyright 2011 National Institute of Information and Communications Technology (NICT)",
+      "license": "NICT Thai WordNet license",
+      "sourceRepository": "https://github.com/omwn/omw-data",
+      "sourceCommit": "406bf83b3c507a3d1f26e88252d5d66893fd36bf"
+    }
+  ]
+}

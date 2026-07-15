@@ -1,0 +1,39 @@
+.enone-thesaurus-menu {
+  position: absolute;
+  z-index: 10000;
+  min-width: 260px;
+  max-height: 320px;
+  overflow: auto;
+  padding: 6px;
+  border: 1px solid currentColor;
+  border-radius: 8px;
+  background: Canvas;
+  color: CanvasText;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 14%);
+}
+
+.enone-thesaurus-menu[hidden] { display: none; }
+
+.enone-thesaurus-menu button {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 8px 10px;
+  border: 0;
+  border-radius: 5px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.enone-thesaurus-menu button:hover,
+.enone-thesaurus-menu button:focus-visible {
+  background: color-mix(in srgb, currentColor 10%, transparent);
+  outline: none;
+}
+
+.enone-thesaurus-menu small { opacity: 0.7; white-space: nowrap; }
