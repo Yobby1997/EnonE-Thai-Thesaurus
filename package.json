@@ -28,7 +28,7 @@
     "build": "tsc -p tsconfig.json && node dist/scripts/copy-assets.js",
     "dev": "tsx src/server.ts",
     "start": "node dist/src/server.js",
-    "test": "node --import tsx --test test/**/*.test.ts",
+    "test": "node --import tsx --test test/thesaurus.test.ts",
     "import:wordnet": "tsx scripts/import-wordnet.ts",
     "curate": "tsx scripts/curate-core.ts",
     "data:build": "npm run import:wordnet -- work/thai-wordnet/wn-data-tha.tab data/generated/wordnet.json && npm run curate"
