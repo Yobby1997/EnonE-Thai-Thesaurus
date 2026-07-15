@@ -8,6 +8,16 @@ Suggestions are sorted from lower to higher register:
 
 `หยาบ → ภาษาพูด → ทั่วไป → กึ่งทางการ → ทางการ → วรรณกรรม → พระสงฆ์ → ราชาศัพท์`
 
+## Live API
+
+The public demo API runs on Render Free:
+
+```text
+https://enone-thai-thesaurus.onrender.com/api/v1/suggestions?word=กิน
+```
+
+Free instances can take around a minute to wake after a period without traffic.
+
 ## Quick start
 
 ```powershell
