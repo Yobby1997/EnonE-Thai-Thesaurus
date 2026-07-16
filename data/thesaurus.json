@@ -44,6 +44,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "กด",
+      "pos": [
+        "ก."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "กดลง",
+        "กดทับ",
+        "กดปุ่ม"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "กดกริ่ง",
       "pos": [
         "ก."
@@ -152,6 +167,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "กดทับ",
+      "pos": [
+        "ก."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "กด"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "กดโทร",
       "pos": [
         "ก."
@@ -218,6 +246,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "กดปุ่ม",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "กด"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "กดปุ่มเรียกลิฟต์",
       "pos": [
         "ก."
@@ -254,6 +295,19 @@
       ],
       "register": "ภาษาพูด",
       "registerRank": 2,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "กดลง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "กด"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -5992,7 +6046,8 @@
       "registerRank": 3,
       "synonyms": [
         "รักษาไว้",
-        "เก็บ"
+        "เก็บ",
+        "วางไว้"
       ],
       "source": "thai-wordnet",
       "reviewStatus": "reviewed"
@@ -6614,6 +6669,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "แก้",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "แก้ไข",
+        "ปรับแก้",
+        "แก้ปัญหา"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "แก้การบ้าน",
       "pos": [
         "ก."
@@ -6637,6 +6707,19 @@
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "แก้ไข",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "แก้"
+      ],
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -6865,6 +6948,19 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "แก้ปัญหา",
+      "pos": [
+        "ก."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "แก้"
+      ],
+      "source": "thai-wordnet",
       "reviewStatus": "reviewed"
     },
     {
@@ -18469,6 +18565,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เงย",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เงยหน้า",
+        "แหงน",
+        "แหงนหน้า"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เงยตัว",
       "pos": [
         "ก."
@@ -19844,6 +19955,20 @@
       "register": "ทางการ",
       "registerRank": 5,
       "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "จัดเตรียม",
+      "pos": [
+        "ก."
+      ],
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
+      "synonyms": [
+        "จัด",
+        "เตรียม"
+      ],
+      "source": "thai-wordnet",
       "reviewStatus": "reviewed"
     },
     {
@@ -29737,10 +29862,12 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "synonyms": [
-        "ผลัก"
+        "ผลัก",
+        "ดุน",
+        "ไส"
       ],
-      "source": "thai-wordnet",
-      "reviewStatus": "inferred"
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
     },
     {
       "word": "ดันจานไป",
@@ -31014,6 +31141,19 @@
       ],
       "register": "ทางการ",
       "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ดุน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ดัน"
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -34908,6 +35048,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ตระเตรียม",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เตรียม"
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ตระหง่าน",
       "pos": [
         "ว."
@@ -36464,6 +36617,19 @@
       ],
       "synonyms": [
         "ตั้งนาฬิกาปลุก"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ตั้งไว้",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "วางไว้"
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
@@ -38404,6 +38570,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เตรียม",
+      "pos": [
+        "ก."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "เตรียมไว้",
+        "จัดเตรียม",
+        "ตระเตรียม"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เตรียมกล้อง",
       "pos": [
         "ก."
@@ -38561,6 +38742,19 @@
       "source": "editorial-seed",
       "register": "ทั่วไป",
       "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เตรียมไว้",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เตรียม"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
     {
@@ -42220,6 +42414,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ทดลอง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ลอง"
+      ],
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ทดลองใช้สินค้า",
       "pos": [
         "ก."
@@ -42266,7 +42473,8 @@
         "ก."
       ],
       "synonyms": [
-        "สอบ"
+        "สอบ",
+        "ลอง"
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
@@ -48830,9 +49038,11 @@
       "register": "กึ่งทางการ",
       "registerRank": 4,
       "synonyms": [
-        "เอา"
+        "พา",
+        "นำไป",
+        "นำมา"
       ],
-      "source": "thai-wordnet",
+      "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
     {
@@ -49278,6 +49488,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "นำไป",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "นำ"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "นำผ้าที่ตากแล้วลง",
       "pos": [
         "ก."
@@ -49392,6 +49615,19 @@
       ],
       "register": "ทางการ",
       "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "นำมา",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "นำ"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -50058,6 +50294,19 @@
       ],
       "register": "ทางการ",
       "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "นุ่ง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "สวม"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -55134,6 +55383,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ปรับแก้",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "แก้"
+      ],
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ปรับแก้งานตามข้อเสนอแนะ",
       "pos": [
         "ก."
@@ -59271,6 +59533,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เปล่งเสียง",
+      "pos": [
+        "ก."
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
+      "synonyms": [
+        "ส่งเสียง",
+        "ร้อง"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เปล่งเสียงสนับสนุนศิลปิน",
       "pos": [
         "ก."
@@ -59347,16 +59623,12 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "synonyms": [
-        "กลายเป็น",
-        "กลายสภาพ",
-        "ทำให้เปลี่ยน",
-        "ทำให้เปลี่ยนแปลง",
         "เปลี่ยนแปลง",
-        "แปลง",
-        "แลกเปลี่ยน"
+        "แปร",
+        "แปลง"
       ],
-      "source": "thai-wordnet",
-      "reviewStatus": "inferred"
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
     },
     {
       "word": "เปลี่ยนกำหนดการประชุม",
@@ -59646,15 +59918,15 @@
         "ก.",
         "ว."
       ],
-      "register": "ทั่วไป",
-      "registerRank": 3,
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
       "synonyms": [
         "ทำให้เปลี่ยน",
         "ทำให้เปลี่ยนแปลง",
         "เปลี่ยน"
       ],
       "source": "thai-wordnet",
-      "reviewStatus": "inferred"
+      "reviewStatus": "reviewed"
     },
     {
       "word": "เปลี่ยนไปโดยสารรถไฟอีกขบวน",
@@ -61427,6 +61699,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "แปร",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เปลี่ยน"
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "แปรงผม",
       "pos": [
         "ก."
@@ -61501,14 +61786,14 @@
         "ก.",
         "น."
       ],
-      "register": "ทั่วไป",
-      "registerRank": 3,
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
       "synonyms": [
         "กลายเป็น",
         "เปลี่ยน"
       ],
       "source": "thai-wordnet",
-      "reviewStatus": "inferred"
+      "reviewStatus": "reviewed"
     },
     {
       "word": "แปลงกาย",
@@ -67548,6 +67833,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "พักไว้",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "วางไว้"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "พักสายตา",
       "pos": [
         "ก."
@@ -67974,6 +68272,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "พา",
+      "pos": [
+        "ก."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "นำ",
+        "พาไป",
+        "พามา"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "พากย์เสียงวิดีโอ",
       "pos": [
         "ก."
@@ -68041,6 +68354,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "พาไป",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "พา"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "พาผู้มาเยือนถึงทางออก",
       "pos": [
         "ก."
@@ -68050,6 +68376,19 @@
       ],
       "register": "ทางการ",
       "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "พามา",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "พา"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -79726,13 +80065,12 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "synonyms": [
-        "ขับขาน",
-        "ขับร้อง",
-        "ร้องเพลง",
-        "ร้องไห้"
+        "ส่งเสียง",
+        "เปล่งเสียง",
+        "ร้องออกมา"
       ],
-      "source": "thai-wordnet",
-      "reviewStatus": "inferred"
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
     },
     {
       "word": "ร้องขอ",
@@ -80023,6 +80361,19 @@
       "source": "editorial-seed",
       "register": "ทั่วไป",
       "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ร้องออกมา",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ร้อง"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
     {
@@ -87682,6 +88033,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ลอง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ลองดู",
+        "ทดลอง",
+        "ทดสอบ"
+      ],
+      "source": "editorial-seed",
+      "register": "ภาษาพูด",
+      "registerRank": 2,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ลองเข้าฉาก",
       "pos": [
         "ก."
@@ -87705,6 +88071,19 @@
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ลองดู",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ลอง"
+      ],
+      "register": "ภาษาพูด",
+      "registerRank": 2,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -91719,6 +92098,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "วางไว้",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ตั้งไว้",
+        "พักไว้",
+        "เก็บไว้"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "วางศัสตราลง",
       "pos": [
         "ก."
@@ -94535,7 +94929,9 @@
       "register": "ภาษาพูด",
       "registerRank": 2,
       "synonyms": [
-        "ส่งข้อความเสียง"
+        "เปล่งเสียง",
+        "ส่งข้อความเสียง",
+        "ร้อง"
       ],
       "source": "thai-wordnet",
       "reviewStatus": "reviewed"
@@ -95750,9 +96146,11 @@
       "register": "กึ่งทางการ",
       "registerRank": 4,
       "synonyms": [
-        "ใส่"
+        "ใส่",
+        "สวมใส่",
+        "นุ่ง"
       ],
-      "source": "thai-wordnet",
+      "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
     {
@@ -95969,6 +96367,20 @@
       "synonyms": [
         "แต่งกาย",
         "แต่งตัว"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "สวมใส่",
+      "pos": [
+        "ก."
+      ],
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
+      "synonyms": [
+        "สวม",
+        "ใส่"
       ],
       "source": "thai-wordnet",
       "reviewStatus": "reviewed"
@@ -101591,7 +102003,8 @@
         "ก."
       ],
       "synonyms": [
-        "ผลัก"
+        "ผลัก",
+        "ดัน"
       ],
       "register": "ภาษาพูด",
       "registerRank": 2,
@@ -107532,12 +107945,26 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "แหงน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เงย"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "แหงนหน้า",
       "pos": [
         "ก."
       ],
       "synonyms": [
-        "เงยหน้า"
+        "เงยหน้า",
+        "เงย"
       ],
       "register": "ทั่วไป",
       "registerRank": 3,

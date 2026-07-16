@@ -3726,3 +3726,17 @@ test("หน้า ขัน and หลัง preserve relation-specific POS", (
   assert.deepEqual(thesaurus.suggest("หลัง").find(({ word }) => word === "แผ่นหลัง")?.pos, ["น."]);
   assert.deepEqual(thesaurus.suggest("หลัง").find(({ word }) => word === "ข้างหลัง")?.pos, ["ว."]);
 });
+
+test("common handling and movement verbs provide curated alternatives", () => {
+  for (const word of ["นำ", "พา", "วางไว้", "ดัน", "เปลี่ยน", "ลอง", "เตรียม", "สวม", "เงย", "กด", "แก้", "ร้อง"]) {
+    const suggestions = thesaurus.suggest(word);
+    assert.ok(suggestions.length >= 3, word);
+    assert.ok(suggestions.every(({ pos }) => pos.includes("ก.")), word);
+  }
+});
+
+test("common handling alternatives rise from colloquial to formal or literary", () => {
+  assert.equal(thesaurus.suggest("ลอง")[0]?.register, "ภาษาพูด");
+  assert.equal(thesaurus.suggest("เตรียม").find(({ word }) => word === "ตระเตรียม")?.register, "วรรณกรรม");
+  assert.equal(thesaurus.suggest("ร้อง").find(({ word }) => word === "เปล่งเสียง")?.register, "วรรณกรรม");
+});
