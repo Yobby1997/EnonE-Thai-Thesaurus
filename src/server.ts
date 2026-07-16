@@ -9,18 +9,22 @@ const dataPath = path.resolve(process.env.THESAURUS_DATA ?? "data/thesaurus.json
 const thesaurus = new ThaiThesaurus(await loadThesaurusData(dataPath));
 const app = Fastify({ logger: true });
 
-const allowedOrigins = new Set(
+const configuredOrigins = (
   (process.env.CORS_ORIGINS ?? "")
     .split(",")
     .map((origin) => origin.trim())
     .filter(Boolean)
 );
+const allowAllOrigins = configuredOrigins.length === 0 || configuredOrigins.includes("*");
+const allowedOrigins = new Set(configuredOrigins);
 
 await app.register(cors, {
-  origin(origin, callback) {
-    if (!origin || allowedOrigins.has(origin)) return callback(null, true);
-    return callback(null, false);
-  }
+  origin: allowAllOrigins
+    ? "*"
+    : (origin, callback) => {
+        if (!origin || allowedOrigins.has(origin)) return callback(null, true);
+        return callback(null, false);
+      }
 });
 await app.register(rateLimit, {
   max: Number(process.env.RATE_LIMIT_MAX ?? 120),

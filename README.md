@@ -26,9 +26,10 @@ npm test
 npm run dev
 ```
 
-Copy `.env.example` to `.env` and set `CORS_ORIGINS` to the comma-separated
-origins of the websites that may call the API. Requests without a browser
-Origin header remain available for server-to-server use. The API defaults to
+Copy `.env.example` to `.env`. The public read-only API defaults to
+`CORS_ORIGINS=*`, so browser clients on any website can use it. To restrict a
+private deployment, replace `*` with a comma-separated origin allowlist.
+Requests without a browser Origin header remain available for server-to-server use. The API defaults to
 120 requests per minute per client and can be adjusted with
 `RATE_LIMIT_MAX` and `RATE_LIMIT_WINDOW`.
 
@@ -102,8 +103,9 @@ npm run build
 npm start
 ```
 
-Set `HOST=0.0.0.0` in the hosting environment, keep `CORS_ORIGINS` restricted
-to your actual web applications, and place HTTPS in front of the service. The
+Set `HOST=0.0.0.0` in the hosting environment and place HTTPS in front of the
+service. Public read-only deployments can use `CORS_ORIGINS=*`; deployments
+with private or state-changing endpoints should use an explicit allowlist. The
 `/health` endpoint is intended for deployment health checks.
 
 ## License

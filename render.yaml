@@ -18,4 +18,4 @@ services:
       - key: RATE_LIMIT_WINDOW
         value: 1 minute
       - key: CORS_ORIGINS
-        sync: false
+        value: "*"
