@@ -3697,3 +3697,32 @@ test("high-frequency alternatives remain ordered from lower to higher register",
     assert.deepEqual(ranks, [...ranks].sort((a, b) => a - b), word);
   }
 });
+
+test("the next high-frequency word batch resolves to reviewed suggestions", () => {
+  for (const word of ["ได้", "เป็น", "ต้อง", "รู้สึก", "เห็น", "เจอ", "เก็บ", "คุย", "กล่าว", "ลุก", "พัก", "เกลียด", "ขัน", "ขัด"]) {
+    assert.ok(thesaurus.suggest(word).length >= 3, word);
+  }
+});
+
+test("เก็บ excludes violent WordNet senses", () => {
+  for (const excluded of ["ฆ่า", "ฆาตกรรม", "ยิงทิ้ง"]) {
+    assert.ok(!thesaurus.suggest("เก็บ").some(({ word }) => word === excluded), excluded);
+  }
+});
+
+test("คืน separates night noun and return verb relations", () => {
+  assert.deepEqual(thesaurus.get("คืน")?.pos, ["น.", "ก."]);
+  assert.ok(thesaurus.suggest("คืน", "น.").every(({ pos }) => pos.includes("น.")));
+  assert.ok(thesaurus.suggest("คืน", "ก.").every(({ pos }) => pos.includes("ก.")));
+  assert.ok(thesaurus.suggest("คืน", "น.").some(({ word }) => word === "กลางคืน"));
+  assert.ok(thesaurus.suggest("คืน", "ก.").some(({ word }) => word === "ส่งคืน"));
+});
+
+test("หน้า ขัน and หลัง preserve relation-specific POS", () => {
+  assert.deepEqual(thesaurus.suggest("หน้า").find(({ word }) => word === "ใบหน้า")?.pos, ["น."]);
+  assert.deepEqual(thesaurus.suggest("หน้า").find(({ word }) => word === "ด้านหน้า")?.pos, ["ว."]);
+  assert.deepEqual(thesaurus.suggest("ขัน").find(({ word }) => word === "ขันน้ำ")?.pos, ["น."]);
+  assert.deepEqual(thesaurus.suggest("ขัน").find(({ word }) => word === "หมุนให้แน่น")?.pos, ["ก."]);
+  assert.deepEqual(thesaurus.suggest("หลัง").find(({ word }) => word === "แผ่นหลัง")?.pos, ["น."]);
+  assert.deepEqual(thesaurus.suggest("หลัง").find(({ word }) => word === "ข้างหลัง")?.pos, ["ว."]);
+});
