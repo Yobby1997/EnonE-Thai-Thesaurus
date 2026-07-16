@@ -3623,3 +3623,59 @@ test("video production and editing entries preserve verb POS", () => {
     assert.ok(thesaurus.suggest(word).every(({ pos }) => pos.includes("ก.")), word);
   }
 });
+
+test("alarm waking and snoozing remain distinct daily actions", () => {
+  assert.ok(!thesaurus.suggest("ตื่นตามนาฬิกาปลุก").some(({ word }) => word === "กดเลื่อนปลุก"));
+  assert.ok(!thesaurus.suggest("เลื่อนเวลาปลุก").some(({ word }) => word === "ลุกตื่นตามเวลาที่ตั้งไว้"));
+});
+
+test("bed making, curtain opening, and morning light remain distinct", () => {
+  assert.ok(!thesaurus.suggest("จัดที่นอน").some(({ word }) => word === "รูดม่านเปิด"));
+  assert.ok(!thesaurus.suggest("เปิดผ้าม่าน").some(({ word }) => word === "ออกไปรับแดดเช้า"));
+});
+
+test("buttoning, zipping, and wearing a watch remain distinct dressing actions", () => {
+  assert.ok(!thesaurus.suggest("ติดกระดุมเสื้อ").some(({ word }) => word === "ปิดซิปกางเกง"));
+  assert.ok(!thesaurus.suggest("รูดซิปกางเกง").some(({ word }) => word === "สวมนาฬิกา"));
+});
+
+test("packing, checking belongings, carrying keys, and leaving home remain distinct", () => {
+  assert.ok(!thesaurus.suggest("จัดกระเป๋า").some(({ word }) => word === "ตรวจสอบสิ่งของจำเป็น"));
+  assert.ok(!thesaurus.suggest("พกกุญแจบ้าน").some(({ word }) => word === "เดินออกจากบ้าน"));
+  assert.ok(!thesaurus.suggest("ออกจากบ้าน").some(({ word }) => word === "ล็อกบ้าน"));
+});
+
+test("elevator, stairs, bus stop, and bus travel actions remain distinct", () => {
+  assert.ok(!thesaurus.suggest("เรียกลิฟต์").some(({ word }) => word === "เดินลงบันได"));
+  assert.ok(!thesaurus.suggest("เดินไปป้ายรถ").some(({ word }) => word === "รอรถเมล์"));
+  assert.ok(!thesaurus.suggest("ขึ้นรถประจำทาง").some(({ word }) => word === "ลงรถเมล์"));
+});
+
+test("fare payment, seating, road crossing, and commuting remain distinct", () => {
+  assert.ok(!thesaurus.suggest("แตะบัตรโดยสาร").some(({ word }) => word === "เลือกที่นั่งบนรถ"));
+  assert.ok(!thesaurus.suggest("ข้ามถนน").some(({ word }) => word === "เดินทางไปยังที่ทำงาน"));
+});
+
+test("clocking in, computer startup, schedule review, and breaks remain distinct", () => {
+  assert.ok(!thesaurus.suggest("ลงเวลาเข้างาน").some(({ word }) => word === "เปิดคอมทำงาน"));
+  assert.ok(!thesaurus.suggest("ตรวจตารางงาน").some(({ word }) => word === "ผ่อนคลายสายตา"));
+  assert.ok(!thesaurus.suggest("พักสายตา").some(({ word }) => word === "พักเที่ยง"));
+});
+
+test("restroom entry and flushing remain distinct", () => {
+  assert.ok(!thesaurus.suggest("เข้าห้องน้ำ").some(({ word }) => word === "กดน้ำชักโครก"));
+});
+
+test("returning, entering home, removing shoes, and putting belongings away remain distinct", () => {
+  assert.ok(!thesaurus.suggest("เดินทางกลับบ้าน").some(({ word }) => word === "ใช้กุญแจเปิดประตู"));
+  assert.ok(!thesaurus.suggest("ไขประตูบ้าน").some(({ word }) => word === "ถอดรองเท้าหน้าบ้าน"));
+  assert.ok(!thesaurus.suggest("วางกระเป๋า").some(({ word }) => word === "แขวนเครื่องแต่งกาย"));
+});
+
+test("daily routine alternatives retain registers and verb POS", () => {
+  assert.equal(thesaurus.suggest("ตรวจของใช้").find(({ word }) => word === "เช็กของก่อนออก")?.register, "ภาษาพูด");
+  assert.equal(thesaurus.suggest("หลับไป").find(({ word }) => word === "เข้าสู่นิทรา")?.register, "วรรณกรรม");
+  for (const word of ["ตื่นตามนาฬิกาปลุก", "เลื่อนเวลาปลุก", "จัดที่นอน", "เปิดผ้าม่าน", "รับแสงยามเช้า", "ติดกระดุมเสื้อ", "รูดซิปกางเกง", "ใส่นาฬิกาข้อมือ", "จัดกระเป๋า", "ตรวจของใช้", "พกกุญแจบ้าน", "ออกจากบ้าน", "ล็อกประตูบ้าน", "เรียกลิฟต์", "ลงบันได", "เดินไปป้ายรถ", "รอรถประจำทาง", "ขึ้นรถประจำทาง", "แตะบัตรโดยสาร", "หาที่นั่งบนรถ", "ลงจากรถประจำทาง", "ข้ามถนน", "เดินทางไปทำงาน", "ลงเวลาเข้างาน", "เปิดคอมพิวเตอร์ทำงาน", "ตรวจตารางงาน", "พักสายตา", "พักกลางวัน", "เข้าห้องน้ำ", "กดชักโครก", "เดินทางกลับบ้าน", "ไขประตูบ้าน", "ถอดรองเท้าเข้าบ้าน", "วางกระเป๋า", "แขวนเสื้อผ้า", "ชาร์จโทรศัพท์", "เตรียมเสื้อผ้าสำหรับพรุ่งนี้", "ปิดผ้าม่าน", "ปิดไฟนอน", "หลับไป"]) {
+    assert.ok(thesaurus.suggest(word).every(({ pos }) => pos.includes("ก.")), word);
+  }
+});

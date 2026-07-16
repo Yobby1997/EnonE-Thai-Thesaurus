@@ -98,6 +98,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "กดชักโครก",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "กดน้ำชักโครก",
+        "ชำระล้างโถสุขภัณฑ์"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "กดชัตเตอร์",
       "pos": [
         "ก."
@@ -151,6 +165,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "กดน้ำชักโครก",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "กดชักโครก"
+      ],
+      "register": "ภาษาพูด",
+      "registerRank": 2,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "กดบริเวณแผล",
       "pos": [
         "ก."
@@ -191,6 +218,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "กดปุ่มเรียกลิฟต์",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เรียกลิฟต์"
+      ],
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "กดแผล",
       "pos": [
         "ก."
@@ -218,12 +258,26 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "กดลิฟต์",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เรียกลิฟต์"
+      ],
+      "register": "ภาษาพูด",
+      "registerRank": 2,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "กดเลื่อนปลุก",
       "pos": [
         "ก."
       ],
       "synonyms": [
-        "เลื่อนปลุก"
+        "เลื่อนปลุก",
+        "เลื่อนเวลาปลุก"
       ],
       "register": "ภาษาพูด",
       "registerRank": 2,
@@ -1559,6 +1613,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "กลัดกระดุมเสื้อ",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ติดกระดุมเสื้อ"
+      ],
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "กลัดเข็ม",
       "pos": [
         "ก."
@@ -1690,6 +1757,19 @@
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "กลับบ้าน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เดินทางกลับบ้าน"
+      ],
+      "register": "ภาษาพูด",
+      "registerRank": 2,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -4386,6 +4466,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ก้าวลงตามขั้นบันได",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ลงบันได"
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ก้าวออกจากบ้าน",
       "pos": [
         "ก."
@@ -5653,6 +5746,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เก็บของใส่กระเป๋า",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "จัดกระเป๋า"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เก็บคมดาบ",
       "pos": [
         "ก."
@@ -5754,7 +5860,8 @@
         "ก."
       ],
       "synonyms": [
-        "จัดเตียง"
+        "จัดเตียง",
+        "จัดที่นอน"
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
@@ -9609,6 +9716,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ขัดดุมเสื้อ",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ติดกระดุมเสื้อ"
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ขัดถู",
       "pos": [
         "ก."
@@ -10221,6 +10341,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ข้ามถนน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เดินข้ามถนน",
+        "สัญจรข้ามทางรถ"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ข้ามผ่าน",
       "pos": [
         "ก."
@@ -10739,6 +10873,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ขึ้นรถประจำทาง",
+      "pos": [
+        "ก."
+      ],
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
+      "synonyms": [
+        "ขึ้นรถเมล์",
+        "โดยสารรถประจำทาง"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ขึ้นรถไฟ",
       "pos": [
         "ก."
@@ -10750,6 +10898,19 @@
         "โดยสารขึ้นรถไฟ"
       ],
       "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ขึ้นรถเมล์",
+      "pos": [
+        "ก."
+      ],
+      "register": "ภาษาพูด",
+      "registerRank": 2,
+      "synonyms": [
+        "ขึ้นรถประจำทาง"
+      ],
+      "source": "thai-wordnet",
       "reviewStatus": "reviewed"
     },
     {
@@ -11805,6 +11966,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เข้าสู่นิทรา",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "หลับไป"
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เข้าสู่ภวังค์",
       "pos": [
         "ก."
@@ -11828,6 +12002,20 @@
       "register": "ทางการ",
       "registerRank": 5,
       "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เข้าห้องน้ำ",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ไปห้องน้ำ",
+        "ใช้ห้องสุขา"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
       "reviewStatus": "reviewed"
     },
     {
@@ -12426,6 +12614,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "แขวนเครื่องแต่งกาย",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "แขวนเสื้อผ้า"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "แขวนผ้าตาก",
       "pos": [
         "ก."
@@ -12476,6 +12677,20 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "แขวนเสื้อผ้า",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เอาเสื้อขึ้นแขวน",
+        "แขวนเครื่องแต่งกาย"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
       "reviewStatus": "reviewed"
     },
     {
@@ -12623,6 +12838,20 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ไขประตูบ้าน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ใช้กุญแจเปิดประตู",
+        "ปลดกลอนเข้าบ้าน"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
       "reviewStatus": "reviewed"
     },
     {
@@ -14774,6 +15003,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "คอยรถโดยสารประจำทาง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "รอรถประจำทาง"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "คอยระวัง",
       "pos": [
         "ก."
@@ -15312,6 +15554,19 @@
         "เดา"
       ],
       "source": "thai-wordnet",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "คาดนาฬิกาที่ข้อมือ",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ใส่นาฬิกาข้อมือ"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
     {
@@ -19089,6 +19344,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "จัดกระเป๋า",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เก็บของใส่กระเป๋า",
+        "เตรียมสัมภาระ"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "จัดการฝึกวิชาชีพแก่ผู้ต้องขัง",
       "pos": [
         "ก."
@@ -19276,6 +19545,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "จัดชุดไว้พรุ่งนี้",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เตรียมเสื้อผ้าสำหรับพรุ่งนี้"
+      ],
+      "register": "ภาษาพูด",
+      "registerRank": 2,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "จัดซื้อ",
       "pos": [
         "ก."
@@ -19379,6 +19661,19 @@
       "source": "editorial-seed",
       "register": "ทั่วไป",
       "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "จัดเตียงให้เรียบร้อย",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "จัดที่นอน"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
     {
@@ -19522,6 +19817,20 @@
       "register": "ทางการ",
       "registerRank": 5,
       "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "จัดที่นอน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เก็บที่นอน",
+        "จัดเตียงให้เรียบร้อย"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
       "reviewStatus": "reviewed"
     },
     {
@@ -24011,6 +24320,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ชาร์จโทรศัพท์",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เสียบชาร์จมือถือ",
+        "เติมพลังงานให้โทรศัพท์"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ชาวนา",
       "pos": [
         "น."
@@ -24533,6 +24856,19 @@
       ],
       "synonyms": [
         "ล้างถังขยะ"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ชำระล้างโถสุขภัณฑ์",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "กดชักโครก"
       ],
       "register": "ทางการ",
       "registerRank": 5,
@@ -25160,6 +25496,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เช็กของก่อนออก",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ตรวจของใช้"
+      ],
+      "register": "ภาษาพูด",
+      "registerRank": 2,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เช็กของข้างใน",
       "pos": [
         "ก."
@@ -25323,6 +25672,19 @@
       ],
       "synonyms": [
         "ตรวจตั๋วบนรถไฟ"
+      ],
+      "register": "ภาษาพูด",
+      "registerRank": 2,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เช็กตารางงาน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ตรวจตารางงาน"
       ],
       "register": "ภาษาพูด",
       "registerRank": 2,
@@ -26401,6 +26763,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ใช้กุญแจเปิดประตู",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ไขประตูบ้าน"
+      ],
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ใช้ของเย็นประคบ",
       "pos": [
         "ก."
@@ -26581,6 +26956,19 @@
       ],
       "synonyms": [
         "โดยสาร"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ใช้บัตรชำระค่าโดยสาร",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "แตะบัตรโดยสาร"
       ],
       "register": "ทางการ",
       "registerRank": 5,
@@ -26978,6 +27366,19 @@
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ใช้ห้องสุขา",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เข้าห้องน้ำ"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -29231,6 +29632,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ดับไฟก่อนนอน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ปิดไฟนอน"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ดับไฟค่าย",
       "pos": [
         "ก."
@@ -30796,6 +31210,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เดินข้ามถนน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ข้ามถนน"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เดินข้ามธารน้ำ",
       "pos": [
         "ก."
@@ -31170,6 +31597,33 @@
       "reviewStatus": "inferred"
     },
     {
+      "word": "เดินทางกลับที่พัก",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เดินทางกลับบ้าน"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เดินทางกลับบ้าน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "กลับบ้าน",
+        "เดินทางกลับที่พัก"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เดินทางด้วยขบวนรถ",
       "pos": [
         "ก."
@@ -31289,6 +31743,33 @@
       "source": "editorial-seed",
       "register": "ทั่วไป",
       "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เดินทางไปทำงาน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ไปทำงาน",
+        "เดินทางไปยังที่ทำงาน"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เดินทางไปยังที่ทำงาน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เดินทางไปทำงาน"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
     {
@@ -31424,6 +31905,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เดินไปป้ายรถ",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ไปป้ายรถ",
+        "เดินมุ่งหน้าไปยังป้ายรถโดยสาร"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เดินไปส่ง",
       "pos": [
         "ก."
@@ -31490,6 +31985,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เดินมุ่งหน้าไปยังป้ายรถโดยสาร",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เดินไปป้ายรถ"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เดินริมน้ำ",
       "pos": [
         "ก."
@@ -31524,6 +32032,19 @@
       ],
       "synonyms": [
         "ลงทางลาด"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เดินลงบันได",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ลงบันได"
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
@@ -31641,7 +32162,8 @@
         "ก."
       ],
       "synonyms": [
-        "ก้าวออกจากบ้าน"
+        "ก้าวออกจากบ้าน",
+        "ออกจากบ้าน"
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
@@ -32122,6 +32644,19 @@
       ],
       "source": "thai-wordnet",
       "reviewStatus": "inferred"
+    },
+    {
+      "word": "โดยสารรถประจำทาง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ขึ้นรถประจำทาง"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
     },
     {
       "word": "โดยสารรถไฟ",
@@ -32882,6 +33417,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ตรวจของใช้",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เช็กของก่อนออก",
+        "ตรวจสอบสิ่งของจำเป็น"
+      ],
+      "source": "editorial-seed",
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ตรวจของในกล่อง",
       "pos": [
         "ก."
@@ -33091,6 +33640,20 @@
       "source": "editorial-seed",
       "register": "ทั่วไป",
       "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ตรวจตารางงาน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เช็กตารางงาน",
+        "ตรวจสอบกำหนดการทำงาน"
+      ],
+      "source": "editorial-seed",
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
       "reviewStatus": "reviewed"
     },
     {
@@ -33455,6 +34018,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ตรวจสอบกำหนดการทำงาน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ตรวจตารางงาน"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ตรวจสอบข้อสันนิษฐาน",
       "pos": [
         "ก."
@@ -33747,6 +34323,19 @@
       ],
       "synonyms": [
         "ตรวจสินค้า"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ตรวจสอบสิ่งของจำเป็น",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ตรวจของใช้"
       ],
       "register": "ทางการ",
       "registerRank": 5,
@@ -35354,6 +35943,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ตั้งปลุกซ้ำอีกครู่",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เลื่อนเวลาปลุก"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ตั้งผู้แทนทางการทูต",
       "pos": [
         "ก."
@@ -36360,6 +36962,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ติดกระดุมเสื้อ",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "กลัดกระดุมเสื้อ",
+        "ขัดดุมเสื้อ"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ติดขาตั้งกล้อง",
       "pos": [
         "ก."
@@ -37107,6 +37723,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ตื่นตามนาฬิกาปลุก",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ตื่นเมื่อเสียงปลุกดัง",
+        "ลุกตื่นตามเวลาที่ตั้งไว้"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ตื่นเต้น",
       "pos": [
         "ว."
@@ -37156,6 +37786,19 @@
       ],
       "register": "ภาษาพูด",
       "registerRank": 2,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ตื่นเมื่อเสียงปลุกดัง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ตื่นตามนาฬิกาปลุก"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -37367,6 +38010,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เตรียมเครื่องแต่งกายล่วงหน้า",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เตรียมเสื้อผ้าสำหรับพรุ่งนี้"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เตรียมเครื่องนอน",
       "pos": [
         "ก."
@@ -37453,6 +38109,33 @@
       "synonyms": [
         "เตรียมตัวลง",
         "เตรียมออกจากขบวนรถ"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เตรียมสัมภาระ",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "จัดกระเป๋า"
+      ],
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เตรียมเสื้อผ้าสำหรับพรุ่งนี้",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "จัดชุดไว้พรุ่งนี้",
+        "เตรียมเครื่องแต่งกายล่วงหน้า"
       ],
       "source": "editorial-seed",
       "register": "ทั่วไป",
@@ -37726,6 +38409,19 @@
       ],
       "register": "ภาษาพูด",
       "registerRank": 2,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เติมพลังงานให้โทรศัพท์",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ชาร์จโทรศัพท์"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -38372,6 +39068,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "แตะบัตรขึ้นรถ",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "แตะบัตรโดยสาร"
+      ],
+      "register": "ภาษาพูด",
+      "registerRank": 2,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "แตะบัตรเข้า",
       "pos": [
         "ก."
@@ -38392,6 +39101,20 @@
       "synonyms": [
         "แตะบัตรเข้า",
         "ใช้บัตรโดยสารผ่านประตูเข้าสถานี"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "แตะบัตรโดยสาร",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "แตะบัตรขึ้นรถ",
+        "ใช้บัตรชำระค่าโดยสาร"
       ],
       "source": "editorial-seed",
       "register": "ทั่วไป",
@@ -39235,6 +39958,20 @@
       "synonyms": [
         "เอารองเท้าออก",
         "ปลดรองเท้า"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ถอดรองเท้าเข้าบ้าน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ถอดรองเท้าหน้าบ้าน",
+        "ปลดรองเท้าก่อนเข้าที่พัก"
       ],
       "source": "editorial-seed",
       "register": "ทั่วไป",
@@ -47623,6 +48360,19 @@
       "reviewStatus": "inferred"
     },
     {
+      "word": "นำกุญแจติดตัว",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "พกกุญแจบ้าน"
+      ],
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "นำขยะออกจากภาชนะ",
       "pos": [
         "ก."
@@ -50734,6 +51484,19 @@
       ],
       "synonyms": [
         "บันทึกหลักฐาน"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "บันทึกเวลาเริ่มงาน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ลงเวลาเข้างาน"
       ],
       "register": "ทางการ",
       "registerRank": 5,
@@ -54500,6 +55263,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ปลดกระเป๋าลง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "วางกระเป๋า"
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ปลดกลอน",
       "pos": [
         "ก."
@@ -54509,6 +55285,19 @@
       ],
       "register": "ทางการ",
       "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ปลดกลอนเข้าบ้าน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ไขประตูบ้าน"
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -54641,6 +55430,19 @@
       ],
       "synonyms": [
         "ถอดรองเท้า"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ปลดรองเท้าก่อนเข้าที่พัก",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ถอดรองเท้าเข้าบ้าน"
       ],
       "register": "ทางการ",
       "registerRank": 5,
@@ -56498,6 +57300,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ปิดซิปกางเกง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "รูดซิปกางเกง"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ปิดดวงไฟ",
       "pos": [
         "ก."
@@ -56862,6 +57677,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ปิดผ้าม่าน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "รูดม่านปิด",
+        "ปิดม่านบังแสง"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ปิดแผลด้วยผ้าพัน",
       "pos": [
         "ก."
@@ -56942,6 +57771,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ปิดไฟนอน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ดับไฟก่อนนอน",
+        "ปิดแสงสว่างเพื่อพักผ่อน"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ปิดม่าน",
       "pos": [
         "ก."
@@ -56967,6 +57810,19 @@
       "source": "editorial-seed",
       "register": "ทั่วไป",
       "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ปิดม่านบังแสง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ปิดผ้าม่าน"
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
+      "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
     {
@@ -57205,6 +58061,19 @@
       ],
       "register": "ภาษาพูด",
       "registerRank": 2,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ปิดแสงสว่างเพื่อพักผ่อน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ปิดไฟนอน"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -58700,6 +59569,33 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เปิดคอมทำงาน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เปิดคอมพิวเตอร์ทำงาน"
+      ],
+      "register": "ภาษาพูด",
+      "registerRank": 2,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เปิดคอมพิวเตอร์ทำงาน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เปิดคอมทำงาน",
+        "เปิดเครื่องเพื่อเริ่มปฏิบัติงาน"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เปิดเครื่องปรับอากาศ",
       "pos": [
         "ก."
@@ -58723,6 +59619,19 @@
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เปิดเครื่องเพื่อเริ่มปฏิบัติงาน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เปิดคอมพิวเตอร์ทำงาน"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -59286,6 +60195,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เปิดผ้าม่าน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "รูดม่านเปิด",
+        "เปิดม่านรับแสง"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เปิดเผยข้อเท็จจริง",
       "pos": [
         "ก."
@@ -59470,6 +60393,19 @@
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เปิดม่านรับแสง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เปิดผ้าม่าน"
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -60228,6 +61164,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ไปทำงาน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เดินทางไปทำงาน"
+      ],
+      "register": "ภาษาพูด",
+      "registerRank": 2,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ไปนอน",
       "pos": [
         "ก."
@@ -60247,6 +61196,19 @@
       ],
       "synonyms": [
         "แจ้งความ"
+      ],
+      "register": "ภาษาพูด",
+      "registerRank": 2,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ไปป้ายรถ",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เดินไปป้ายรถ"
       ],
       "register": "ภาษาพูด",
       "registerRank": 2,
@@ -60341,6 +61303,19 @@
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ไปห้องน้ำ",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เข้าห้องน้ำ"
+      ],
+      "register": "ภาษาพูด",
+      "registerRank": 2,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -60571,8 +61546,8 @@
         "หลับไปโดยไม่รู้ตัว"
       ],
       "source": "editorial-seed",
-      "register": "ทั่วไป",
-      "registerRank": 3,
+      "register": "วรรณกรรม",
+      "registerRank": 6,
       "reviewStatus": "reviewed"
     },
     {
@@ -60948,6 +61923,19 @@
         "พักผ่อน"
       ],
       "source": "thai-wordnet",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ผ่อนคลายสายตา",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "พักสายตา"
+      ],
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
+      "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
     {
@@ -63882,6 +64870,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "พกกุญแจบ้าน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เอากุญแจบ้านไปด้วย",
+        "นำกุญแจติดตัว"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "พงไพร",
       "pos": [
         "น."
@@ -65672,6 +66674,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "พักกลางวัน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "พักเที่ยง",
+        "หยุดงานช่วงกลางวัน"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "พักก่อน",
       "pos": [
         "ก."
@@ -65749,6 +66765,19 @@
       ],
       "register": "วรรณกรรม",
       "registerRank": 6,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "พักเที่ยง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "พักกลางวัน"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -65842,6 +66871,20 @@
       "synonyms": [
         "นั่งพักข้างทาง",
         "หยุดพักบริเวณริมทาง"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "พักสายตา",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "หยุดมองจอชั่วครู่",
+        "ผ่อนคลายสายตา"
       ],
       "source": "editorial-seed",
       "register": "ทั่วไป",
@@ -69881,6 +70924,19 @@
       ],
       "source": "thai-wordnet",
       "reviewStatus": "inferred"
+    },
+    {
+      "word": "มองหาที่นั่ง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "หาที่นั่งบนรถ"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
     },
     {
       "word": "มองหาร่องรอย",
@@ -78312,6 +79368,20 @@
       "reviewStatus": "inferred"
     },
     {
+      "word": "รอรถประจำทาง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "รอรถเมล์",
+        "คอยรถโดยสารประจำทาง"
+      ],
+      "source": "editorial-seed",
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "รอรถไฟ",
       "pos": [
         "ก."
@@ -78323,6 +79393,19 @@
       "source": "editorial-seed",
       "register": "ทั่วไป",
       "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "รอรถเมล์",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "รอรถประจำทาง"
+      ],
+      "register": "ภาษาพูด",
+      "registerRank": 2,
+      "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
     {
@@ -80876,6 +81959,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "รับแสงยามเช้า",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ออกไปรับแดดเช้า",
+        "สัมผัสแสงอรุณ"
+      ],
+      "source": "editorial-seed",
+      "register": "วรรณกรรม",
+      "registerRank": 6,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "รับหน้าที่ที่ได้รับมอบหมาย",
       "pos": [
         "ก."
@@ -82197,6 +83294,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "รูดซิปกางเกง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ปิดซิปกางเกง",
+        "เลื่อนซิปขึ้น"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "รูดซิปขึ้น",
       "pos": [
         "ก."
@@ -82244,7 +83355,8 @@
         "ก."
       ],
       "synonyms": [
-        "ปิดม่าน"
+        "ปิดม่าน",
+        "ปิดผ้าม่าน"
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
@@ -82257,7 +83369,8 @@
         "ก."
       ],
       "synonyms": [
-        "เปิดม่าน"
+        "เปิดม่าน",
+        "เปิดผ้าม่าน"
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
@@ -83293,6 +84406,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เรียกลิฟต์",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "กดลิฟต์",
+        "กดปุ่มเรียกลิฟต์"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เรียกวิญญาณมา",
       "pos": [
         "ก."
@@ -84224,6 +85351,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ลงจากรถประจำทาง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ลงรถเมล์",
+        "ออกจากรถโดยสารประจำทาง"
+      ],
+      "source": "editorial-seed",
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ลงจากรถไฟ",
       "pos": [
         "ก."
@@ -84504,6 +85645,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ลงบันได",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เดินลงบันได",
+        "ก้าวลงตามขั้นบันได"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ลงบันทึก",
       "pos": [
         "ก."
@@ -84612,6 +85767,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ลงรถเมล์",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ลงจากรถประจำทาง"
+      ],
+      "register": "ภาษาพูด",
+      "registerRank": 2,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ลงรองพื้น",
       "pos": [
         "ก."
@@ -84669,11 +85837,12 @@
         "ก."
       ],
       "synonyms": [
-        "ตอกบัตรเข้างาน"
+        "ตอกบัตรเข้างาน",
+        "บันทึกเวลาเริ่มงาน"
       ],
+      "source": "editorial-seed",
       "register": "ทั่วไป",
       "registerRank": 3,
-      "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
     {
@@ -85512,6 +86681,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ล็อกบ้าน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ล็อกประตูบ้าน"
+      ],
+      "register": "ภาษาพูด",
+      "registerRank": 2,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ล็อกประตู",
       "pos": [
         "ก."
@@ -85519,6 +86701,20 @@
       "synonyms": [
         "ปิดประตูใส่กลอน",
         "ยึดประตูให้แน่น"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ล็อกประตูบ้าน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ล็อกบ้าน",
+        "ใส่กุญแจประตูบ้าน"
       ],
       "source": "editorial-seed",
       "register": "ทั่วไป",
@@ -86853,6 +88049,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ลุกตื่นตามเวลาที่ตั้งไว้",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ตื่นตามนาฬิกาปลุก"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ลุกในเวลาเช้า",
       "pos": [
         "ก."
@@ -87815,6 +89024,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เลือกที่นั่งบนรถ",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "หาที่นั่งบนรถ"
+      ],
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เลือกบรรจุภัณฑ์สำหรับจัดส่ง",
       "pos": [
         "ก."
@@ -88176,6 +89398,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เลื่อนซิปขึ้น",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "รูดซิปกางเกง"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เลื่อนตั๋วรถไฟ",
       "pos": [
         "ก."
@@ -88241,6 +89476,20 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เลื่อนเวลาปลุก",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "กดเลื่อนปลุก",
+        "ตั้งปลุกซ้ำอีกครู่"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
       "reviewStatus": "reviewed"
     },
     {
@@ -89054,6 +90303,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "วางกระเป๋า",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "วางสัมภาระ",
+        "ปลดกระเป๋าลง"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "วางกระเป๋าให้เรียบร้อย",
       "pos": [
         "ก."
@@ -89625,6 +90888,19 @@
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "วางสัมภาระ",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "วางกระเป๋า"
+      ],
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -93652,6 +94928,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "สวมนาฬิกา",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ใส่นาฬิกาข้อมือ"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "สวมปลอกหมอนใหม่",
       "pos": [
         "ก."
@@ -94936,6 +96225,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "สัญจรข้ามทางรถ",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ข้ามถนน"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "สัญญา",
       "pos": [
         "ก."
@@ -95403,6 +96705,19 @@
       ],
       "register": "ทางการ",
       "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "สัมผัสแสงอรุณ",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "รับแสงยามเช้า"
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -98087,6 +99402,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เสียบชาร์จมือถือ",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ชาร์จโทรศัพท์"
+      ],
+      "register": "ภาษาพูด",
+      "registerRank": 2,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เสียหลักลื่นไป",
       "pos": [
         "ก."
@@ -98718,6 +100046,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ใส่กุญแจประตูบ้าน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ล็อกประตูบ้าน"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ใส่กุญแจมือ",
       "pos": [
         "ก."
@@ -98927,6 +100268,20 @@
       "synonyms": [
         "ใส่เอฟเฟกต์เปลี่ยนฉาก",
         "เพิ่มการเปลี่ยนผ่านระหว่างคลิป"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ใส่นาฬิกาข้อมือ",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "สวมนาฬิกา",
+        "คาดนาฬิกาที่ข้อมือ"
       ],
       "source": "editorial-seed",
       "register": "ทั่วไป",
@@ -100903,6 +102258,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "หยุดงานช่วงกลางวัน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "พักกลางวัน"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "หยุดงานเพราะป่วย",
       "pos": [
         "ก."
@@ -101046,6 +102414,19 @@
       ],
       "register": "ทางการ",
       "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "หยุดมองจอชั่วครู่",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "พักสายตา"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -101773,6 +103154,20 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "หลับไป",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ผล็อยหลับ",
+        "เข้าสู่นิทรา"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
       "reviewStatus": "reviewed"
     },
     {
@@ -103570,6 +104965,20 @@
       "synonyms": [
         "หาที่นั่งในงาน",
         "ค้นหาที่นั่งตามหมายเลขบัตร"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "หาที่นั่งบนรถ",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "มองหาที่นั่ง",
+        "เลือกที่นั่งบนรถ"
       ],
       "source": "editorial-seed",
       "register": "ทั่วไป",
@@ -106807,6 +108216,33 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ออกจากที่พัก",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ออกจากบ้าน"
+      ],
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ออกจากบ้าน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เดินออกจากบ้าน",
+        "ออกจากที่พัก"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ออกจากพื้นที่ป่า",
       "pos": [
         "ก."
@@ -106852,6 +108288,19 @@
       ],
       "synonyms": [
         "ลงจากรถ"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ออกจากรถโดยสารประจำทาง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ลงจากรถประจำทาง"
       ],
       "register": "ทางการ",
       "registerRank": 5,
@@ -107081,6 +108530,19 @@
       ],
       "synonyms": [
         "ลุกไปห้องน้ำระหว่างฉาย"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ออกไปรับแดดเช้า",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "รับแสงยามเช้า"
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
@@ -109460,6 +110922,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เอากุญแจบ้านไปด้วย",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "พกกุญแจบ้าน"
+      ],
+      "register": "ภาษาพูด",
+      "registerRank": 2,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เอากุญแจไปคืน",
       "pos": [
         "ก."
@@ -109676,6 +111151,19 @@
       ],
       "synonyms": [
         "ถอดรองเท้า"
+      ],
+      "register": "ภาษาพูด",
+      "registerRank": 2,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เอาเสื้อขึ้นแขวน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "แขวนเสื้อผ้า"
       ],
       "register": "ภาษาพูด",
       "registerRank": 2,
