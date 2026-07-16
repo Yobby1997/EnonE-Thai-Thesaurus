@@ -771,10 +771,13 @@ test("tasting, seasoning, and serving remain distinct stages", () => {
   assert.ok(!thesaurus.suggest("ปรุงรส").some(({ word }) => word === "เสิร์ฟ"));
 });
 
-test("street and person homonyms remain outside cooking senses", () => {
+test("person and stirring senses of คน retain separate POS", () => {
   assert.ok(thesaurus.suggest("ซอย").every(({ pos }) => pos.includes("น.")));
-  assert.ok(thesaurus.suggest("คน").every(({ pos }) => pos.includes("น.")));
-  assert.ok(!thesaurus.suggest("คน").some(({ word }) => word === "กวน"));
+  assert.deepEqual(thesaurus.get("คน")?.pos, ["น.", "ก."]);
+  assert.deepEqual(thesaurus.suggest("คน").find(({ word }) => word === "มนุษย์")?.pos, ["น."]);
+  assert.deepEqual(thesaurus.suggest("คน").find(({ word }) => word === "กวน")?.pos, ["ก."]);
+  assert.ok(thesaurus.suggest("คน", "น.").every(({ pos }) => pos.includes("น.")));
+  assert.ok(thesaurus.suggest("คน", "ก.").every(({ pos }) => pos.includes("ก.")));
 });
 
 test("cooking entries preserve verb POS", () => {
@@ -3677,5 +3680,20 @@ test("daily routine alternatives retain registers and verb POS", () => {
   assert.equal(thesaurus.suggest("หลับไป").find(({ word }) => word === "เข้าสู่นิทรา")?.register, "วรรณกรรม");
   for (const word of ["ตื่นตามนาฬิกาปลุก", "เลื่อนเวลาปลุก", "จัดที่นอน", "เปิดผ้าม่าน", "รับแสงยามเช้า", "ติดกระดุมเสื้อ", "รูดซิปกางเกง", "ใส่นาฬิกาข้อมือ", "จัดกระเป๋า", "ตรวจของใช้", "พกกุญแจบ้าน", "ออกจากบ้าน", "ล็อกประตูบ้าน", "เรียกลิฟต์", "ลงบันได", "เดินไปป้ายรถ", "รอรถประจำทาง", "ขึ้นรถประจำทาง", "แตะบัตรโดยสาร", "หาที่นั่งบนรถ", "ลงจากรถประจำทาง", "ข้ามถนน", "เดินทางไปทำงาน", "ลงเวลาเข้างาน", "เปิดคอมพิวเตอร์ทำงาน", "ตรวจตารางงาน", "พักสายตา", "พักกลางวัน", "เข้าห้องน้ำ", "กดชักโครก", "เดินทางกลับบ้าน", "ไขประตูบ้าน", "ถอดรองเท้าเข้าบ้าน", "วางกระเป๋า", "แขวนเสื้อผ้า", "ชาร์จโทรศัพท์", "เตรียมเสื้อผ้าสำหรับพรุ่งนี้", "ปิดผ้าม่าน", "ปิดไฟนอน", "หลับไป"]) {
     assert.ok(thesaurus.suggest(word).every(({ pos }) => pos.includes("ก.")), word);
+  }
+});
+
+test("high-frequency daily verbs provide reviewed alternatives", () => {
+  for (const word of ["ไป", "มา", "เอา", "บอก", "ใช้", "มี", "อยู่", "อยาก", "เรียก", "ส่ง", "อาบ", "ใส่", "ถอด"]) {
+    const suggestions = thesaurus.suggest(word);
+    assert.ok(suggestions.length >= 3, word);
+    assert.ok(suggestions.every(({ pos }) => pos.includes("ก.")), word);
+  }
+});
+
+test("high-frequency alternatives remain ordered from lower to higher register", () => {
+  for (const word of ["เอา", "ใช้", "อยาก", "ส่ง", "อาบ", "ใส่"]) {
+    const ranks = thesaurus.suggest(word).map(({ registerRank }) => registerRank);
+    assert.deepEqual(ranks, [...ranks].sort((a, b) => a - b), word);
   }
 });

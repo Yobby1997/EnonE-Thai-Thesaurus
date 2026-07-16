@@ -24,14 +24,19 @@ export class ThaiThesaurus {
     if (!source) return [];
 
     return source.synonyms
-      .map((candidate) => this.get(candidate))
-      .filter((entry): entry is ThesaurusEntry => Boolean(entry))
-      .filter((entry) => !pos || entry.pos.includes(pos))
-      .map(({ word, pos, register, registerRank, source: entrySource }) => {
-        const matchingPos = pos.filter((item) => source.pos.includes(item));
+      .map((candidate) => ({
+        entry: this.get(candidate),
+        relationPos: source.synonymPos?.[candidate]
+      }))
+      .filter((item): item is { entry: ThesaurusEntry; relationPos: string[] | undefined } => Boolean(item.entry))
+      .filter(({ entry, relationPos }) => !pos || (relationPos ?? entry.pos).includes(pos))
+      .map(({ entry, relationPos }) => {
+        const { word, pos: candidatePos, register, registerRank, source: entrySource } = entry;
+        const allowedPos = relationPos ?? source.pos;
+        const matchingPos = candidatePos.filter((item) => allowedPos.includes(item));
         return {
           word,
-          pos: matchingPos.length ? matchingPos : pos,
+          pos: matchingPos.length ? matchingPos : candidatePos,
           register,
           registerRank,
           source: entrySource

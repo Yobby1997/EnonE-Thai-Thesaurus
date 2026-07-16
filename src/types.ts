@@ -11,6 +11,8 @@ export interface ThesaurusEntry {
   register: Register;
   registerRank: number;
   synonyms: string[];
+  /** Limits each synonym relation to the applicable part(s) of speech. */
+  synonymPos?: Record<string, string[]>;
   source: string;
   reviewStatus?: "reviewed" | "inferred" | "needs-review";
 }

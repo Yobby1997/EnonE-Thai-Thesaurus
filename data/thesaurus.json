@@ -6977,6 +6977,22 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "แกะ",
+      "pos": [
+        "ก.",
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "แกะสลัก",
+        "สลัก",
+        "ถอด"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "แกะกระดุม",
       "pos": [
         "ก."
@@ -10314,6 +10330,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ขานเรียก",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เรียก"
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ข้าม",
       "pos": [
         "ก."
@@ -11714,10 +11743,11 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "synonyms": [
-        "เข้า"
+        "เข้า",
+        "มา"
       ],
       "source": "thai-wordnet",
-      "reviewStatus": "inferred"
+      "reviewStatus": "reviewed"
     },
     {
       "word": "เข้าเยี่ยมผู้ต้องขัง",
@@ -12959,6 +12989,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "คงอยู่",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "อยู่"
+      ],
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "คชสาร",
       "pos": [
         "น."
@@ -13040,17 +13083,33 @@
     {
       "word": "คน",
       "pos": [
-        "น."
+        "น.",
+        "ก."
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
       "synonyms": [
         "มนุษย์",
         "บุคคล",
-        "ปัจเจกชน"
+        "ปัจเจกชน",
+        "กวน"
       ],
       "source": "editorial-seed",
-      "reviewStatus": "reviewed"
+      "reviewStatus": "reviewed",
+      "synonymPos": {
+        "มนุษย์": [
+          "น."
+        ],
+        "บุคคล": [
+          "น."
+        ],
+        "ปัจเจกชน": [
+          "น."
+        ],
+        "กวน": [
+          "ก."
+        ]
+      }
     },
     {
       "word": "ค้น",
@@ -13662,6 +13721,19 @@
       ],
       "register": "ราชาศัพท์",
       "registerRank": 8,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ครอบครอง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "มี"
+      ],
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -20070,6 +20142,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "จัดส่ง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ส่ง"
+      ],
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "จัดส่งคณะทูต",
       "pos": [
         "ก."
@@ -22222,15 +22307,16 @@
       "pos": [
         "ก."
       ],
-      "register": "ทั่วไป",
-      "registerRank": 3,
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
       "synonyms": [
         "กล่าว",
         "ยืนยัน",
-        "ประกาศ"
+        "ประกาศ",
+        "บอก"
       ],
       "source": "thai-wordnet",
-      "reviewStatus": "inferred"
+      "reviewStatus": "reviewed"
     },
     {
       "word": "แจ้งกระเป๋าหาย",
@@ -24388,6 +24474,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ชำระกาย",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "อาบ"
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ชำระค่าเช่า",
       "pos": [
         "ก."
@@ -24789,7 +24888,8 @@
         "ก."
       ],
       "synonyms": [
-        "อาบน้ำ"
+        "อาบน้ำ",
+        "อาบ"
       ],
       "register": "ทางการ",
       "registerRank": 5,
@@ -26750,6 +26850,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ใช้",
+      "pos": [
+        "ก."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ใช้งาน",
+        "นำมาใช้",
+        "เอามาใช้"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ใช้กำปั้นกระแทกประตู",
       "pos": [
         "ก."
@@ -26854,6 +26969,19 @@
       ],
       "source": "thai-wordnet",
       "reviewStatus": "inferred"
+    },
+    {
+      "word": "ใช้งาน",
+      "pos": [
+        "ก."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ใช้"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "reviewed"
     },
     {
       "word": "ใช้ช้อนตักอาหาร",
@@ -31746,6 +31874,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เดินทางไป",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ไป"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เดินทางไปทำงาน",
       "pos": [
         "ก."
@@ -31769,6 +31910,19 @@
       ],
       "register": "ทางการ",
       "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เดินทางมา",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "มา"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -39789,6 +39943,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ถอด",
+      "pos": [
+        "ก."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ถอดออก",
+        "ปลด",
+        "แกะ"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ถอดกางเกง",
       "pos": [
         "ก."
@@ -40073,6 +40242,19 @@
       "source": "editorial-seed",
       "register": "ทั่วไป",
       "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ถอดออก",
+      "pos": [
+        "ก."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ถอด"
+      ],
+      "source": "thai-wordnet",
       "reviewStatus": "reviewed"
     },
     {
@@ -41390,6 +41572,19 @@
         "กุม",
         "ประคอง"
       ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ถือครอง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "มี"
+      ],
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -48332,6 +48527,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "นำ",
+      "pos": [
+        "ก."
+      ],
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
+      "synonyms": [
+        "เอา"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "น้ำ",
       "pos": [
         "น."
@@ -48892,6 +49100,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "นำมาใช้",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ใช้"
+      ],
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "นำมาเสิร์ฟ",
       "pos": [
         "ก."
@@ -49045,6 +49266,19 @@
       ],
       "register": "วรรณกรรม",
       "registerRank": 6,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "นำส่ง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ส่ง"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -50261,6 +50495,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "บรรจุ",
+      "pos": [
+        "ก."
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "synonyms": [
+        "มี",
+        "ใส่"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "บรรจุเรื่องเข้าสู่วาระ",
       "pos": [
         "ก."
@@ -50614,12 +50862,25 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "synonyms": [
-        "พูด",
-        "อธิบาย",
-        "สั่ง"
+        "แจ้ง",
+        "บอกกล่าว",
+        "เล่า"
       ],
-      "source": "thai-wordnet",
-      "reviewStatus": "inferred"
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "บอกกล่าว",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "บอก"
+      ],
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
     },
     {
       "word": "บอกข้อกล่าวหา",
@@ -55246,6 +55507,19 @@
       "register": "วรรณกรรม",
       "registerRank": 6,
       "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ปลด",
+      "pos": [
+        "ก."
+      ],
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
+      "synonyms": [
+        "ถอด"
+      ],
+      "source": "thai-wordnet",
       "reviewStatus": "reviewed"
     },
     {
@@ -61098,16 +61372,17 @@
     {
       "word": "ไป",
       "pos": [
-        "ก.",
-        "ว."
+        "ก."
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
       "synonyms": [
-        "เดินทาง"
+        "เดินทางไป",
+        "มุ่งไป",
+        "ไปยัง"
       ],
-      "source": "thai-wordnet",
-      "reviewStatus": "inferred"
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
     },
     {
       "word": "ไปขึ้นเครื่องไม่ทัน",
@@ -61226,6 +61501,20 @@
       "register": "ภาษาพูด",
       "registerRank": 2,
       "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ไปยัง",
+      "pos": [
+        "ว.",
+        "ก."
+      ],
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
+      "synonyms": [
+        "ไป"
+      ],
+      "source": "thai-wordnet",
       "reviewStatus": "reviewed"
     },
     {
@@ -66892,6 +67181,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "พักอาศัย",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "อยู่"
+      ],
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "พัง",
       "pos": [
         "ก.",
@@ -71300,6 +71602,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "มา",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เดินทางมา",
+        "เข้ามา",
+        "มาถึง"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ม้า",
       "pos": [
         "น."
@@ -71782,6 +72099,21 @@
         "ขนาด"
       ],
       "source": "thai-wordnet",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "มี",
+      "pos": [
+        "ก."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "มีอยู่",
+        "ครอบครอง",
+        "ถือครอง"
+      ],
+      "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
     {
@@ -72319,6 +72651,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "มีอยู่",
+      "pos": [
+        "ก."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "มี"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "มีอาการปวดช่องท้อง",
       "pos": [
         "ก."
@@ -72519,6 +72864,19 @@
         "อาหารเย็น"
       ],
       "source": "thai-wordnet",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "มุ่งไป",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ไป"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
     {
@@ -79142,6 +79500,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ร้องเรียก",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เรียก"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ร้องเรียนบริการ",
       "pos": [
         "ก."
@@ -84148,6 +84519,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เรียก",
+      "pos": [
+        "ก."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ร้องเรียก",
+        "ขานเรียก",
+        "เรียกหา"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เรียกเก็บค่าสินค้าจากผู้รับปลายทาง",
       "pos": [
         "ก."
@@ -84461,6 +84847,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เรียกหา",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เรียก"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เรียกเหล่าขุนนางมาประชุม",
       "pos": [
         "ก."
@@ -84481,6 +84880,7 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "synonyms": [
+        "เรียก",
         "ปลุก"
       ],
       "source": "thai-wordnet",
@@ -92516,6 +92916,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ส่ง",
+      "pos": [
+        "ก."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "จัดส่ง",
+        "นำส่ง",
+        "ส่งมอบ"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ส่งกระแสมนตราโจมตี",
       "pos": [
         "ก."
@@ -93254,6 +93669,19 @@
       "source": "editorial-seed",
       "register": "ทั่วไป",
       "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ส่งมอบ",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ส่ง"
+      ],
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
+      "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
     {
@@ -94626,6 +95054,7 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "synonyms": [
+        "แกะ",
         "แกะสลัก"
       ],
       "source": "thai-wordnet",
@@ -94804,6 +95233,19 @@
       "registerRank": 3,
       "source": "editorial-seed",
       "reviewStatus": "inferred"
+    },
+    {
+      "word": "สวม",
+      "pos": [
+        "ก."
+      ],
+      "register": "กึ่งทางการ",
+      "registerRank": 4,
+      "synonyms": [
+        "ใส่"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "reviewed"
     },
     {
       "word": "ส้วม",
@@ -99993,6 +100435,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ใส่",
+      "pos": [
+        "ก."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "สวม",
+        "บรรจุ",
+        "เติม"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ใส่กางเกง",
       "pos": [
         "ก."
@@ -102157,6 +102614,19 @@
       ],
       "synonyms": [
         "เอาออกจากตะกร้า"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "หยิบเอา",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เอา"
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
@@ -107782,10 +108252,10 @@
       "registerRank": 2,
       "synonyms": [
         "ต้องการ",
-        "ประสงค์",
-        "ปรารถนา"
+        "ปรารถนา",
+        "ประสงค์"
       ],
-      "source": "thai-wordnet",
+      "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
     {
@@ -107862,16 +108332,17 @@
     {
       "word": "อยู่",
       "pos": [
-        "ว.",
         "ก."
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
       "synonyms": [
-        "อาศัย"
+        "อาศัย",
+        "พักอาศัย",
+        "คงอยู่"
       ],
-      "source": "thai-wordnet",
-      "reviewStatus": "inferred"
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
     },
     {
       "word": "อยู่ในท่านั่ง",
@@ -109906,6 +110377,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "อาบ",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "อาบน้ำ",
+        "ชำระร่างกาย",
+        "ชำระกาย"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "อาบน้ำ",
       "pos": [
         "ก."
@@ -110106,7 +110592,7 @@
         "อยู่"
       ],
       "source": "thai-wordnet",
-      "reviewStatus": "inferred"
+      "reviewStatus": "reviewed"
     },
     {
       "word": "อาหาร",
@@ -110860,27 +111346,15 @@
       "pos": [
         "ก."
       ],
-      "register": "ทั่วไป",
-      "registerRank": 3,
+      "register": "ภาษาพูด",
+      "registerRank": 2,
       "synonyms": [
-        "ตีหม้อ",
-        "นอน",
-        "ปี้",
-        "มีเซ็กส์",
-        "มีเพศสัมพันธ์",
-        "เย็ด",
-        "ร่วมประเวณี",
-        "ร่วมเพศ",
-        "ร่วมรัก",
-        "ร่วมสุข",
-        "รับ",
-        "ล่อ",
-        "เสพกาม",
-        "เสพเมถุน",
-        "หลับนอน"
+        "นำ",
+        "หยิบเอา",
+        "เอามา"
       ],
-      "source": "thai-wordnet",
-      "reviewStatus": "inferred"
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
     },
     {
       "word": "เอากางเกงออก",
@@ -111138,6 +111612,32 @@
       ],
       "synonyms": [
         "ปอกเปลือก"
+      ],
+      "register": "ภาษาพูด",
+      "registerRank": 2,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เอามา",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เอา"
+      ],
+      "register": "ภาษาพูด",
+      "registerRank": 2,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เอามาใช้",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ใช้"
       ],
       "register": "ภาษาพูด",
       "registerRank": 2,

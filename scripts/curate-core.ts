@@ -5,7 +5,7 @@ const input = process.argv[2] ?? "data/generated/wordnet.json";
 const output = process.argv[3] ?? "data/thesaurus.json";
 const coreWords = new Set(JSON.parse(await readFile("data/core-words.json", "utf8")) as string[]);
 const overrides = JSON.parse(await readFile("data/register-overrides.json", "utf8")) as Record<string, Register>;
-const editorial = JSON.parse(await readFile("data/editorial-entries.json", "utf8")) as Array<Pick<ThesaurusEntry, "word" | "pos" | "synonyms">>;
+const editorial = JSON.parse(await readFile("data/editorial-entries.json", "utf8")) as Array<Pick<ThesaurusEntry, "word" | "pos" | "synonyms" | "synonymPos">>;
 const imported = JSON.parse(await readFile(input, "utf8")) as ThesaurusData;
 const byWord = new Map(imported.entries.map((entry) => [entry.word, entry]));
 const editorialByWord = new Map(editorial.map((entry) => [entry.word, entry]));
@@ -13,7 +13,8 @@ const editorialCandidateMeta = new Map<string, { pos: string[]; sources: Set<str
 for (const entry of editorial) {
   for (const synonym of entry.synonyms) {
     const meta = editorialCandidateMeta.get(synonym) ?? { pos: [], sources: new Set<string>() };
-    meta.pos = [...new Set([...meta.pos, ...entry.pos])];
+    const relationPos = entry.synonymPos?.[synonym] ?? entry.pos;
+    meta.pos = [...new Set([...meta.pos, ...relationPos])];
     meta.sources.add(entry.word);
     editorialCandidateMeta.set(synonym, meta);
   }
@@ -64,6 +65,11 @@ for (const word of selected) {
     register,
     registerRank: rankOf(register),
     synonyms,
+    ...(entry.synonymPos ? {
+      synonymPos: Object.fromEntries(
+        Object.entries(entry.synonymPos).filter(([candidate]) => synonyms.includes(candidate))
+      )
+    } : {}),
     reviewStatus: editorialEntry || overrides[word] ? "reviewed" : "inferred"
   });
 }
