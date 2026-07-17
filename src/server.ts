@@ -4,6 +4,7 @@ import cors from "@fastify/cors";
 import rateLimit from "@fastify/rate-limit";
 import { ThaiThesaurus } from "./thesaurus.js";
 import { loadThesaurusData } from "./loader.js";
+import { docsHtml } from "./docs.js";
 
 const dataPath = path.resolve(process.env.THESAURUS_DATA ?? "data/thesaurus.json");
 const thesaurus = new ThaiThesaurus(await loadThesaurusData(dataPath));
@@ -32,6 +33,12 @@ await app.register(rateLimit, {
 });
 
 app.get("/health", async () => ({ ok: true }));
+app.get("/", async (_request, reply) =>
+  reply.type("text/html; charset=utf-8").send(docsHtml)
+);
+app.get("/docs", async (_request, reply) =>
+  reply.type("text/html; charset=utf-8").send(docsHtml)
+);
 app.get<{ Querystring: { word?: string; pos?: string } }>(
   "/api/v1/suggestions",
   async (request, reply) => {

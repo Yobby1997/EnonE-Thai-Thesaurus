@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: คู่มือใช้งาน API
+    url: https://enone-thai-thesaurus.onrender.com/docs
+    about: อ่านวิธีเรียก API และหลักเกณฑ์ก่อนส่งข้อเสนอ

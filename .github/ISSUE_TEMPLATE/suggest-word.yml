@@ -1,0 +1,94 @@
+name: เสนอคำใหม่หรือแก้ไขคำ
+description: เสนอคำใกล้เคียง ชนิดคำ หรือระดับภาษา โดยไม่แก้ฐานข้อมูลโดยตรง
+title: "[คำเสนอ] "
+labels: ["data-suggestion", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ขอบคุณที่ช่วยพัฒนาคลังคำ กรุณาค้นคำจาก API ก่อนส่ง และส่งหนึ่งคำตั้งต่อหนึ่ง Issue
+  - type: dropdown
+    id: change-type
+    attributes:
+      label: ประเภทข้อเสนอ
+      options:
+        - เพิ่มคำตั้งใหม่
+        - เพิ่มคำใกล้เคียงให้คำเดิม
+        - แก้ชนิดคำ
+        - แก้ระดับภาษา
+        - ลบความสัมพันธ์ที่ไม่ใช่คำใกล้เคียง
+    validations:
+      required: true
+  - type: input
+    id: base-word
+    attributes:
+      label: คำตั้ง
+      placeholder: เช่น ลอง
+    validations:
+      required: true
+  - type: textarea
+    id: suggestions
+    attributes:
+      label: คำใกล้เคียงที่เสนอ
+      description: หนึ่งคำต่อหนึ่งบรรทัด ถ้าเป็นการแก้ไขให้ระบุค่าเดิมและค่าใหม่
+      placeholder: |-
+        ลองดู
+        ทดสอบ
+        ทดลอง
+    validations:
+      required: true
+  - type: dropdown
+    id: pos
+    attributes:
+      label: ชนิดคำที่ความสัมพันธ์นี้ใช้
+      multiple: true
+      options:
+        - น. (คำนาม)
+        - ก. (คำกริยา)
+        - ว. (คำวิเศษณ์)
+        - ส. (คำสันธาน)
+        - บ. (คำบุพบท)
+        - อ. (คำอุทาน)
+        - อื่น ๆ — อธิบายในหมายเหตุ
+    validations:
+      required: true
+  - type: dropdown
+    id: register
+    attributes:
+      label: ระดับภาษาของคำที่เสนอ
+      multiple: true
+      options:
+        - หยาบ (1)
+        - ภาษาพูด (2)
+        - ทั่วไป (3)
+        - กึ่งทางการ (4)
+        - ทางการ (5)
+        - วรรณกรรม (6)
+        - พระสงฆ์ (7)
+        - ราชาศัพท์ (8)
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: ตัวอย่างการใช้
+      description: เขียนประโยคสั้น ๆ ที่แสดงว่าคำเหล่านี้ใช้แทนกันได้ในบริบทใด
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: แหล่งอ้างอิงหรือเหตุผล
+      description: ห้ามคัดลอกฐานข้อมูลที่ไม่อนุญาตให้เผยแพร่ต่อ
+      placeholder: การใช้ทั่วไป, หนังสือที่ตนเขียน, หรือลิงก์อ้างอิง
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: ยืนยันก่อนส่ง
+      options:
+        - label: ฉันค้นแล้วว่ายังไม่มีข้อเสนอซ้ำ
+          required: true
+        - label: คำที่เสนอไม่ใช่เพียงคำในหมวดเดียวกันหรือคำตรงข้าม
+          required: true
+        - label: ฉันมีสิทธิ์ส่งข้อมูลนี้ภายใต้สัญญาอนุญาตของโครงการ
+          required: true

@@ -18,6 +18,16 @@ https://enone-thai-thesaurus.onrender.com/api/v1/suggestions?word=กิน
 
 Free instances can take around a minute to wake after a period without traffic.
 
+Usage and contribution guide:
+
+```text
+https://enone-thai-thesaurus.onrender.com/docs
+```
+
+Contributors should submit one structured GitHub Issue per base word instead of
+committing a full data file. This prevents stale local copies from overwriting
+newer reviewed data. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## Quick start
 
 ```powershell
