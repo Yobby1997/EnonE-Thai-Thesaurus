@@ -3740,3 +3740,197 @@ test("common handling alternatives rise from colloquial to formal or literary", 
   assert.equal(thesaurus.suggest("เตรียม").find(({ word }) => word === "ตระเตรียม")?.register, "วรรณกรรม");
   assert.equal(thesaurus.suggest("ร้อง").find(({ word }) => word === "เปล่งเสียง")?.register, "วรรณกรรม");
 });
+
+test("frequent everyday states and actions provide curated alternatives", () => {
+  for (const word of ["คิดถึง", "พร้อม", "เสร็จ", "ผิด", "เหมือน", "ต่าง", "จำเป็น", "พยายาม", "ยอม", "หิว", "อิ่ม", "สบาย"]) {
+    assert.ok(thesaurus.suggest(word).length >= 3, word);
+  }
+});
+
+test("new frequent alternatives preserve their applicable part of speech", () => {
+  for (const word of ["คิดถึง", "พยายาม", "ยอม"]) {
+    assert.ok(thesaurus.suggest(word).every(({ pos }) => pos.includes("ก.")), word);
+  }
+  for (const word of ["พร้อม", "ผิด", "เหมือน", "ต่าง", "จำเป็น", "หิว", "อิ่ม", "สบาย"]) {
+    assert.ok(thesaurus.suggest(word).every(({ pos }) => pos.includes("ว.")), word);
+  }
+});
+
+test("nearby but distinct everyday concepts do not leak into synonym groups", () => {
+  assert.ok(!thesaurus.suggest("หิว").some(({ word }) => word === "ท้องร้อง"));
+  assert.ok(!thesaurus.suggest("อิ่ม").some(({ word }) => word === "กินเสร็จ"));
+  assert.ok(!thesaurus.suggest("พยายาม").some(({ word }) => word === "ลอง"));
+  assert.ok(!thesaurus.suggest("คิดถึง").some(({ word }) => word === "รัก"));
+  assert.ok(!thesaurus.suggest("พร้อม").some(({ word }) => word === "เริ่ม"));
+});
+
+test("new frequent alternatives rise from lower to higher register", () => {
+  for (const word of ["คิดถึง", "พร้อม", "เสร็จ", "ผิด", "เหมือน", "ต่าง", "จำเป็น", "พยายาม", "ยอม", "หิว", "อิ่ม", "สบาย"]) {
+    const ranks = thesaurus.suggest(word).map(({ registerRank }) => registerRank);
+    assert.deepEqual(ranks, [...ranks].sort((a, b) => a - b), word);
+  }
+});
+
+test("second frequent everyday batch provides curated alternatives", () => {
+  for (const word of ["ระวัง", "สนใจ", "แน่นอน", "ชัดเจน", "ปกติ", "นาน", "เต็ม", "ว่าง", "ทัน", "ยุ่ง"]) {
+    assert.ok(thesaurus.suggest(word).length >= 3, word);
+  }
+});
+
+test("availability and busyness remain opposite states", () => {
+  assert.ok(!thesaurus.suggest("ว่าง").some(({ word }) => ["ยุ่ง", "ไม่ว่าง", "ติดธุระ"].includes(word)));
+  assert.ok(!thesaurus.suggest("ยุ่ง").some(({ word }) => ["ว่าง", "ไม่มีธุระ", "มีเวลาว่าง"].includes(word)));
+});
+
+test("attention and caution remain distinct actions", () => {
+  assert.ok(!thesaurus.suggest("สนใจ").some(({ word }) => word === "ระวัง"));
+  assert.ok(!thesaurus.suggest("ระวัง").some(({ word }) => word === "สนใจ"));
+});
+
+test("second frequent batch rises from lower to higher register", () => {
+  for (const word of ["ระวัง", "สนใจ", "แน่นอน", "ชัดเจน", "ปกติ", "นาน", "เต็ม", "ว่าง", "ทัน", "ยุ่ง"]) {
+    const ranks = thesaurus.suggest(word).map(({ registerRank }) => registerRank);
+    assert.deepEqual(ranks, [...ranks].sort((a, b) => a - b), word);
+  }
+});
+
+test("third frequent everyday batch provides curated alternatives", () => {
+  for (const word of ["สำคัญ", "พิเศษ", "ปลอดภัย", "อันตราย", "แน่น", "หลวม", "ฟรี", "สุข", "เศร้า", "มั่นใจ", "จริงใจ", "สุภาพ"]) {
+    assert.ok(thesaurus.suggest(word).length >= 3, word);
+  }
+});
+
+test("opposite frequent states stay separate", () => {
+  assert.ok(!thesaurus.suggest("ปลอดภัย").some(({ word }) => word === "อันตราย"));
+  assert.ok(!thesaurus.suggest("อันตราย").some(({ word }) => word === "ปลอดภัย"));
+  assert.ok(!thesaurus.suggest("แน่น").some(({ word }) => word === "หลวม"));
+  assert.ok(!thesaurus.suggest("สุข").some(({ word }) => word === "เศร้า"));
+});
+
+test("third frequent batch rises from lower to higher register", () => {
+  for (const word of ["สำคัญ", "พิเศษ", "ปลอดภัย", "อันตราย", "แน่น", "หลวม", "ฟรี", "สุข", "เศร้า", "มั่นใจ", "จริงใจ", "สุภาพ"]) {
+    const ranks = thesaurus.suggest(word).map(({ registerRank }) => registerRank);
+    assert.deepEqual(ranks, [...ranks].sort((a, b) => a - b), word);
+  }
+});
+
+test("frequent emotion batch provides curated alternatives", () => {
+  for (const word of ["ตื่นเต้น", "รำคาญ", "ผิดหวัง", "ห่วง", "เขิน", "เครียด", "กดดัน", "ท้อ", "เหนื่อยใจ", "ใจเย็น", "เจ็บใจ", "ไม่พอใจ", "พอใจ", "เสียดาย", "สงสาร", "ซาบซึ้ง"]) {
+    assert.ok(thesaurus.suggest(word).length >= 3, word);
+  }
+});
+
+test("opposite and adjacent emotions stay separate", () => {
+  assert.ok(!thesaurus.suggest("พอใจ").some(({ word }) => word === "ไม่พอใจ"));
+  assert.ok(!thesaurus.suggest("ไม่พอใจ").some(({ word }) => word === "พอใจ"));
+  assert.ok(!thesaurus.suggest("ใจเย็น").some(({ word }) => ["เครียด", "กดดัน"].includes(word)));
+  assert.ok(!thesaurus.suggest("สงสาร").some(({ word }) => word === "เสียดาย"));
+  assert.ok(!thesaurus.suggest("ห่วง").some(({ word }) => word === "หึง"));
+});
+
+test("frequent emotion batch rises from lower to higher register", () => {
+  for (const word of ["ตื่นเต้น", "รำคาญ", "ผิดหวัง", "ห่วง", "เขิน", "เครียด", "กดดัน", "ท้อ", "เหนื่อยใจ", "ใจเย็น", "เจ็บใจ", "ไม่พอใจ", "พอใจ", "เสียดาย", "สงสาร", "ซาบซึ้ง"]) {
+    const ranks = thesaurus.suggest(word).map(({ registerRank }) => registerRank);
+    assert.deepEqual(ranks, [...ranks].sort((a, b) => a - b), word);
+  }
+});
+
+test("frequent time words provide curated alternatives", () => {
+  for (const word of ["วันนี้", "พรุ่งนี้", "เมื่อวาน", "ก่อน", "บางที", "เดี๋ยว", "ชั่วคราว", "ตลอด"]) {
+    assert.ok(thesaurus.suggest(word).length >= 3, word);
+  }
+});
+
+test("adjacent days remain distinct time references", () => {
+  assert.ok(!thesaurus.suggest("วันนี้").some(({ word }) => ["พรุ่งนี้", "เมื่อวาน"].includes(word)));
+  assert.ok(!thesaurus.suggest("พรุ่งนี้").some(({ word }) => ["วันนี้", "เมื่อวาน"].includes(word)));
+  assert.ok(!thesaurus.suggest("เมื่อวาน").some(({ word }) => ["วันนี้", "พรุ่งนี้"].includes(word)));
+});
+
+test("temporary and continuous durations remain separate", () => {
+  assert.ok(!thesaurus.suggest("ชั่วคราว").some(({ word }) => ["ตลอด", "ตลอดเวลา"].includes(word)));
+  assert.ok(!thesaurus.suggest("ตลอด").some(({ word }) => ["ชั่วคราว", "ชั่วระยะหนึ่ง"].includes(word)));
+});
+
+test("frequent time alternatives rise from lower to higher register", () => {
+  for (const word of ["วันนี้", "พรุ่งนี้", "เมื่อวาน", "ก่อน", "บางที", "เดี๋ยว", "ชั่วคราว", "ตลอด"]) {
+    const ranks = thesaurus.suggest(word).map(({ registerRank }) => registerRank);
+    assert.deepEqual(ranks, [...ranks].sort((a, b) => a - b), word);
+  }
+});
+
+test("frequent quantity words provide curated alternatives", () => {
+  for (const word of ["เพียงพอ", "เหลือ", "เพิ่ม", "ลด", "ประมาณ", "มากที่สุด", "น้อยที่สุด", "หมด", "รวม", "พอดี", "ไม่พอ", "เล็กน้อย"]) {
+    assert.ok(thesaurus.suggest(word).length >= 3, word);
+  }
+});
+
+test("opposite quantities and changes stay separate", () => {
+  assert.ok(!thesaurus.suggest("เพิ่ม").some(({ word }) => ["ลด", "ลดลง"].includes(word)));
+  assert.ok(!thesaurus.suggest("ลด").some(({ word }) => ["เพิ่ม", "เพิ่มขึ้น"].includes(word)));
+  assert.ok(!thesaurus.suggest("เพียงพอ").some(({ word }) => ["ไม่พอ", "ขาดแคลน"].includes(word)));
+  assert.ok(!thesaurus.suggest("มากที่สุด").some(({ word }) => ["น้อยที่สุด", "ต่ำสุด"].includes(word)));
+});
+
+test("ประมาณ preserves relation-specific parts of speech", () => {
+  assert.deepEqual(thesaurus.suggest("ประมาณ").find(({ word }) => word === "กะ")?.pos, ["ก."]);
+  assert.deepEqual(thesaurus.suggest("ประมาณ").find(({ word }) => word === "ราว")?.pos, ["ว."]);
+});
+
+test("frequent quantity alternatives rise from lower to higher register", () => {
+  for (const word of ["เพียงพอ", "เหลือ", "เพิ่ม", "ลด", "ประมาณ", "มากที่สุด", "น้อยที่สุด", "หมด", "รวม", "พอดี", "ไม่พอ", "เล็กน้อย"]) {
+    const ranks = thesaurus.suggest(word).map(({ registerRank }) => registerRank);
+    assert.deepEqual(ranks, [...ranks].sort((a, b) => a - b), word);
+  }
+});
+
+test("frequent communication and decision words provide curated alternatives", () => {
+  for (const word of ["แนะนำ", "ยืนยัน", "อนุญาต", "ห้าม", "สังเกต", "ตัดสิน", "แจ้ง", "ขยายความ"]) {
+    assert.ok(thesaurus.suggest(word).length >= 3, word);
+    assert.ok(thesaurus.suggest(word).every(({ pos }) => pos.includes("ก.")), word);
+  }
+});
+
+test("permission and prohibition remain opposite actions", () => {
+  assert.ok(!thesaurus.suggest("อนุญาต").some(({ word }) => ["ห้าม", "สั่งห้าม"].includes(word)));
+  assert.ok(!thesaurus.suggest("ห้าม").some(({ word }) => ["อนุญาต", "ยอมให้"].includes(word)));
+});
+
+test("communication intents remain distinct", () => {
+  assert.ok(!thesaurus.suggest("แนะนำ").some(({ word }) => ["ยืนยัน", "แจ้ง"].includes(word)));
+  assert.ok(!thesaurus.suggest("แจ้ง").some(({ word }) => word === "ขยายความ"));
+  assert.ok(!thesaurus.suggest("สังเกต").some(({ word }) => word === "ตัดสิน"));
+});
+
+test("frequent communication alternatives rise from lower to higher register", () => {
+  for (const word of ["แนะนำ", "ยืนยัน", "อนุญาต", "ห้าม", "สังเกต", "ตัดสิน", "แจ้ง", "ขยายความ"]) {
+    const ranks = thesaurus.suggest(word).map(({ registerRank }) => registerRank);
+    assert.deepEqual(ranks, [...ranks].sort((a, b) => a - b), word);
+  }
+});
+
+test("frequent planning and task words provide curated alternatives", () => {
+  for (const word of ["หวัง", "คาดหวัง", "ตั้งใจ", "ตกลง", "วางแผน", "นัดหมาย", "เลื่อน", "ยกเลิก", "จัดการ", "ตรวจสอบ"]) {
+    assert.ok(thesaurus.suggest(word).length >= 3, word);
+    assert.ok(thesaurus.suggest(word).every(({ pos }) => pos.includes("ก.")), word);
+  }
+});
+
+test("opposite planning actions remain separate", () => {
+  assert.ok(!thesaurus.suggest("นัดหมาย").some(({ word }) => ["ยกเลิก", "เพิกถอน"].includes(word)));
+  assert.ok(!thesaurus.suggest("เลื่อน").some(({ word }) => ["ยกเลิก", "ไม่เอาแล้ว"].includes(word)));
+  assert.ok(!thesaurus.suggest("ตกลง").some(({ word }) => ["ยกเลิก", "ปฏิเสธ"].includes(word)));
+});
+
+test("planning and task intents remain distinct", () => {
+  assert.ok(!thesaurus.suggest("หวัง").some(({ word }) => ["วางแผน", "ตรวจสอบ"].includes(word)));
+  assert.ok(!thesaurus.suggest("วางแผน").some(({ word }) => ["จัดการ", "ดำเนินการ"].includes(word)));
+  assert.ok(!thesaurus.suggest("ตรวจสอบ").some(({ word }) => word === "นัดหมาย"));
+});
+
+test("frequent planning alternatives rise from lower to higher register", () => {
+  for (const word of ["หวัง", "คาดหวัง", "ตั้งใจ", "ตกลง", "วางแผน", "นัดหมาย", "เลื่อน", "ยกเลิก", "จัดการ", "ตรวจสอบ"]) {
+    const ranks = thesaurus.suggest(word).map(({ registerRank }) => registerRank);
+    assert.deepEqual(ranks, [...ranks].sort((a, b) => a - b), word);
+  }
+});
