@@ -3934,3 +3934,31 @@ test("frequent planning alternatives rise from lower to higher register", () => 
     assert.deepEqual(ranks, [...ranks].sort((a, b) => a - b), word);
   }
 });
+
+const frequentDailyBatch100 = ["หมอน","ผ้าห่ม","เสื้อ","กางเกง","ปากกา","กระดาษ","นม","สถานี","ที่ทำงาน","ครอบครัว","ลูก","แฟน","ผู้ชาย","ผู้หญิง","ผู้ใหญ่","เช้า","สาย","บ่าย","กลางคืน","สัปดาห์","เดือน","ปี","นาที","ชั่วโมง","เมื่อไร","ที่ไหน","ใคร","อะไร","ทำไม","อย่างไร","นี้","นั้น","ทุก","หลาย","เดียว","สั้น","หนัก","อุ่น","ยาก","บน","ล่าง","ซ้าย","ขวา","แยกกัน","เอง","แค่","ยัง","เคย","ค่อนข้าง","ใช่","ไม่ใช่","ถูกต้อง","แน่","ควร","อาจ","สามารถ","ตัด","ใช้งาน","เปิดใช้","ปิดใช้","จอง","ขับ","เลี้ยว","หลง","เคี้ยว","กลืน","ปรุง","พบกัน","สมัคร","กรอก","เซ็น","จ่ายเงิน","ประหยัด","แบ่ง","ปัน","พก","เก็บไว้","ตรวจ","เปรียบเทียบ","แย่","น่ารัก","สุขภาพ","ปัญหา","คำตอบ","เหตุผล","วิธี","เรื่อง","ข่าว","ชื่อ","หมายเลข","จำนวน","สี","รูป","เสียง","กลิ่น","รส","สถานที่","จุด","ส่วน","รายการ"];
+
+test("daily frequency batch adds exactly 100 unique headwords", () => {
+  assert.equal(frequentDailyBatch100.length, 100);
+  assert.equal(new Set(frequentDailyBatch100).size, 100);
+});
+
+test("daily frequency batch provides at least three curated alternatives", () => {
+  for (const word of frequentDailyBatch100) {
+    assert.ok(thesaurus.suggest(word).length >= 3, word);
+  }
+});
+
+test("daily frequency batch rises from lower to higher register", () => {
+  for (const word of frequentDailyBatch100) {
+    const ranks = thesaurus.suggest(word).map(({ registerRank }) => registerRank);
+    assert.deepEqual(ranks, [...ranks].sort((a, b) => a - b), word);
+  }
+});
+
+test("new daily words enrich earlier related headwords", () => {
+  assert.ok(thesaurus.suggest("เปิด").some(({ word }) => word === "เปิดใช้"));
+  assert.ok(thesaurus.suggest("ปิด").some(({ word }) => word === "ปิดใช้"));
+  assert.ok(thesaurus.suggest("พบ").some(({ word }) => word === "พบกัน"));
+  assert.ok(thesaurus.suggest("แบ่งปัน").some(({ word }) => word === "ปัน"));
+  assert.ok(thesaurus.suggest("ตรวจสอบ").some(({ word }) => word === "ตรวจ"));
+});

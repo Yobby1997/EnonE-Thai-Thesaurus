@@ -636,6 +636,34 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "กรอก",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "กรอกข้อมูล",
+        "เติมข้อมูล",
+        "บันทึกข้อมูล"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "กรอกข้อมูล",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "กรอก"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "กรองของเหลว",
       "pos": [
         "ก."
@@ -788,7 +816,8 @@
         "ว."
       ],
       "synonyms": [
-        "แน่น"
+        "แน่น",
+        "สั้น"
       ],
       "register": "กึ่งทางการ",
       "registerRank": 4,
@@ -964,6 +993,34 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "กระดาษ",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "แผ่นกระดาษ",
+        "กระดาษเขียน",
+        "วัสดุเขียน"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "กระดาษเขียน",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "กระดาษ"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "กระโดด",
       "pos": [
         "ก."
@@ -1101,6 +1158,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "กระบวนการ",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "วิธี"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "กระบวนแห่",
       "pos": [
         "น."
@@ -1221,6 +1291,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "กระแสเสียง",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "เสียง"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "กระหน่ำทุบประตู",
       "pos": [
         "ก."
@@ -1240,6 +1323,20 @@
       ],
       "synonyms": [
         "หิว"
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "กระเหม็ดกระแหม่",
+      "pos": [
+        "ก.",
+        "ว."
+      ],
+      "synonyms": [
+        "ประหยัด"
       ],
       "register": "วรรณกรรม",
       "registerRank": 6,
@@ -2039,15 +2136,17 @@
     {
       "word": "กลางคืน",
       "pos": [
-        "น."
+        "น.",
+        "ว."
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
       "synonyms": [
-        "คืน",
-        "ตอนกลางคืน"
+        "ตอนกลางคืน",
+        "ยามค่ำคืน",
+        "ราตรี"
       ],
-      "source": "thai-wordnet",
+      "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
     {
@@ -2703,6 +2802,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "กลิ่น",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "กลิ่นอาย",
+        "กลิ่นหอม",
+        "กลิ่นเหม็น"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "กลิ่นคาว",
       "pos": [
         "น."
@@ -2823,6 +2937,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "กลิ่นหอม",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "กลิ่น"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "กลิ่นหอมเข้ม",
       "pos": [
         "ว."
@@ -2834,6 +2961,19 @@
       "registerRank": 5,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "กลิ่นเหม็น",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "กลิ่น"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "กลิ่นไหม้",
@@ -2863,6 +3003,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "กลิ่นอาย",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "กลิ่น"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "กลิ่นไอดิน",
       "pos": [
         "น."
@@ -2873,6 +3026,21 @@
       "register": "วรรณกรรม",
       "registerRank": 6,
       "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "กลืน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "กลืนลง",
+        "กลืนอาหาร",
+        "ล่วงคอ"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
       "reviewStatus": "reviewed"
     },
     {
@@ -2941,6 +3109,19 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "กลืนลง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "กลืน"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "กลืนอาหาร",
@@ -4031,6 +4212,47 @@
       "registerRank": 3,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "กางเกง",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "กางเกงขายาว",
+        "กางเกงขาสั้น",
+        "เครื่องนุ่งห่ม"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "กางเกงขายาว",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "กางเกง"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "กางเกงขาสั้น",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "กางเกง"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
     },
     {
       "word": "กางเต็นท์",
@@ -6184,11 +6406,11 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "synonyms": [
-        "รักษาไว้",
         "เก็บ",
-        "วางไว้"
+        "รักษาไว้",
+        "สงวนไว้"
       ],
-      "source": "thai-wordnet",
+      "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
     {
@@ -6245,6 +6467,20 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เก็บออม",
+      "pos": [
+        "ก.",
+        "ว."
+      ],
+      "synonyms": [
+        "ประหยัด"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "เก็บเอกสารรวมกัน",
@@ -7905,6 +8141,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ขบเคี้ยว",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เคี้ยว"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "ขบถ",
       "pos": [
         "น."
@@ -8534,6 +8783,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ขวบปี",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "ปี"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "ขวยเขิน",
       "pos": [
         "ก.",
@@ -8546,6 +8808,22 @@
       "register": "วรรณกรรม",
       "registerRank": 6,
       "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ขวา",
+      "pos": [
+        "น.",
+        "ว."
+      ],
+      "synonyms": [
+        "ข้างขวา",
+        "ด้านขวา",
+        "เบื้องขวา"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
       "reviewStatus": "reviewed"
     },
     {
@@ -8669,6 +8947,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ข้อแก้",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "คำตอบ"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "ขอขยายกำหนดชำระค่าเช่า",
       "pos": [
         "ก."
@@ -8707,6 +8998,19 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ข้อขัดข้อง",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "ปัญหา"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ขอขึ้นค่าเช่า",
@@ -10320,11 +10624,12 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "synonyms": [
-        "ปล่อย",
-        "ผลักไส"
+        "ขับรถ",
+        "บังคับรถ",
+        "ขับเคลื่อน"
       ],
-      "source": "thai-wordnet",
-      "reviewStatus": "inferred"
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
     },
     {
       "word": "ขับขาน",
@@ -10353,6 +10658,19 @@
       "registerRank": 5,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ขับเคลื่อน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ขับ"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ขับช้า",
@@ -10554,6 +10872,34 @@
       "registerRank": 2,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ข้างขวา",
+      "pos": [
+        "น.",
+        "ว."
+      ],
+      "synonyms": [
+        "ขวา"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "ข้างซ้าย",
+      "pos": [
+        "น.",
+        "ว."
+      ],
+      "synonyms": [
+        "ซ้าย"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ข้างนอก",
@@ -10970,6 +11316,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ข่าว",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ข่าวคราว",
+        "ข่าวสาร",
+        "รายงานข่าว"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ข้าว",
       "pos": [
         "น."
@@ -10996,6 +11357,19 @@
       "register": "ทางการ",
       "registerRank": 5,
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ข่าวคราว",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "ข่าว"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ขาวซีด",
@@ -11074,6 +11448,19 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "ข่าวสาร",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ข่าว"
+      ],
+      "source": "thai-wordnet",
       "reviewStatus": "inferred"
     },
     {
@@ -13781,6 +14168,32 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "คนโต",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ผู้ใหญ่"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "คนในบ้าน",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "ครอบครัว"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "ค้นพบ",
       "pos": [
         "ก."
@@ -13850,6 +14263,19 @@
       ],
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "คนละส่วน",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "แยกกัน"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "คนหม้อ",
@@ -14149,6 +14575,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "คนไหน",
+      "pos": [
+        "ส."
+      ],
+      "synonyms": [
+        "ใคร"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "คนอาหาร",
       "pos": [
         "ก."
@@ -14249,11 +14688,12 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "synonyms": [
-        "ที่บ้าน",
-        "บ้าน"
+        "ครัวเรือน",
+        "คนในบ้าน",
+        "วงศ์วาน"
       ],
-      "source": "thai-wordnet",
-      "reviewStatus": "inferred"
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
     },
     {
       "word": "ครอบงำจิตใจด้วยมนตร์",
@@ -14283,6 +14723,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ครั้งหนึ่ง",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "เคย"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "ครั้นแล้ว",
       "pos": [
         "ว.",
@@ -14310,6 +14763,19 @@
       ],
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ครัวเรือน",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "ครอบครัว"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "คราง",
@@ -14448,6 +14914,19 @@
       ],
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ครู่หนึ่ง",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "นาที"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "คล้องแขน",
@@ -15150,6 +15629,34 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ควร",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ควรจะ",
+        "สมควร",
+        "พึง"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ควรจะ",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ควร"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "คว้า",
       "pos": [
         "ก."
@@ -15474,6 +15981,34 @@
       "registerRank": 3,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ค่อนข้าง",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ออกจะ",
+        "พอสมควร",
+        "ค่อนข้างจะ"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ค่อนข้างจะ",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ค่อนข้าง"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "คอนเฟิร์มการจอง",
@@ -16380,6 +16915,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "คำเฉลย",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "คำตอบ"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "คำเชิญ",
       "pos": [
         "น."
@@ -16391,6 +16939,21 @@
       "source": "editorial-seed",
       "register": "ทั่วไป",
       "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "คำตอบ",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ข้อแก้",
+        "คำเฉลย",
+        "ผลเฉลย"
+      ],
+      "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
     {
@@ -17230,7 +17793,8 @@
       "register": "ทางการ",
       "registerRank": 5,
       "synonyms": [
-        "คนรัก"
+        "คนรัก",
+        "แฟน"
       ],
       "source": "thai-wordnet",
       "reviewStatus": "reviewed"
@@ -17343,6 +17907,47 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เคย",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "เคยมา",
+        "เคยเป็น",
+        "ครั้งหนึ่ง"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เคยเป็น",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "เคย"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "เคยมา",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "เคย"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "เคร่งขรึม",
       "pos": [
         "ว."
@@ -17412,6 +18017,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เครื่องเขียน",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ปากกา"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "เครื่องคอมพิวเตอร์",
       "pos": [
         "น."
@@ -17446,7 +18064,9 @@
       "register": "ทางการ",
       "registerRank": 5,
       "synonyms": [
-        "เสื้อผ้า"
+        "เครื่องนุ่งห่ม",
+        "เสื้อผ้า",
+        "เสื้อ"
       ],
       "source": "thai-wordnet",
       "reviewStatus": "reviewed"
@@ -17502,6 +18122,33 @@
       ],
       "source": "thai-wordnet",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เครื่องนอน",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ผ้าห่ม"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "เครื่องนุ่งห่ม",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "เครื่องแต่งกาย",
+        "กางเกง"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
     },
     {
       "word": "เครื่องบิน",
@@ -18054,6 +18701,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เคี้ยว",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "บดอาหาร",
+        "ขบเคี้ยว",
+        "บดเคี้ยว"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เคี้ยวกรุบ",
       "pos": [
         "ว."
@@ -18133,6 +18795,21 @@
       "register": "ทางการ",
       "registerRank": 5,
       "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "แค่",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "เพียงแค่",
+        "เท่านั้น",
+        "เพียง"
+      ],
+      "source": "editorial-seed",
+      "register": "ภาษาพูด",
+      "registerRank": 2,
       "reviewStatus": "reviewed"
     },
     {
@@ -18410,6 +19087,21 @@
       "synonyms": [
         "เลน",
         "ดินโคลน"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ใคร",
+      "pos": [
+        "ส."
+      ],
+      "synonyms": [
+        "คนไหน",
+        "ผู้ใด",
+        "บุคคลใด"
       ],
       "source": "editorial-seed",
       "register": "ทั่วไป",
@@ -19862,6 +20554,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "จอง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "จองไว้",
+        "สำรอง",
+        "ทำการจอง"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "จ้อง",
       "pos": [
         "ก."
@@ -19982,6 +20689,19 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "จองไว้",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "จอง"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "จ้องสบตา",
@@ -21121,7 +21841,8 @@
       "registerRank": 3,
       "synonyms": [
         "จันทรา",
-        "ดวงจันทร์"
+        "ดวงจันทร์",
+        "เดือน"
       ],
       "source": "thai-wordnet",
       "reviewStatus": "inferred"
@@ -21135,7 +21856,8 @@
       "registerRank": 6,
       "synonyms": [
         "จันทร์",
-        "ดวงจันทร์"
+        "ดวงจันทร์",
+        "เดือน"
       ],
       "source": "thai-wordnet",
       "reviewStatus": "reviewed"
@@ -21679,6 +22401,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "จ่ายค่าใช้จ่าย",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "จ่ายเงิน"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "จ่ายค่าตั๋วหนัง",
       "pos": [
         "ก."
@@ -21777,12 +22512,13 @@
         "ก."
       ],
       "synonyms": [
-        "จ่าย",
-        "ชำระเงิน"
+        "จ่ายค่าใช้จ่าย",
+        "ชำระเงิน",
+        "ชำระราคา"
       ],
+      "source": "editorial-seed",
       "register": "ทั่วไป",
       "registerRank": 3,
-      "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
     {
@@ -22028,6 +22764,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "จำทางไม่ได้",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "หลง"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "จำนน",
       "pos": [
         "ก."
@@ -22039,6 +22788,49 @@
       "registerRank": 6,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "จำนวน",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ยอด",
+        "ปริมาณ",
+        "จำนวนรวม"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "จำนวนมาก",
+      "pos": [
+        "น.",
+        "ว."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "มากมาย",
+        "หลาย"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "จำนวนรวม",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "จำนวน"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "จำนองทรัพย์",
@@ -22053,6 +22845,20 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "จำแนก",
+      "pos": [
+        "ก."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "จัด",
+        "แบ่ง"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
     },
     {
       "word": "จำแนกประเภทมูลฝอย",
@@ -22392,6 +23198,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "จุด",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ตำแหน่ง",
+        "บริเวณ",
+        "จุดหมาย"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "จุดกองไฟ",
       "pos": [
         "ก."
@@ -22403,6 +23224,19 @@
       "registerRank": 3,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "จุดจอด",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "สถานี"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "จุดตะเกียง",
@@ -22484,6 +23318,19 @@
       "registerRank": 3,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "จุดหมาย",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "จุด"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
     },
     {
       "word": "จุติ",
@@ -22729,6 +23576,19 @@
       "registerRank": 2,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เจ็ดวัน",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "สัปดาห์"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "เจตภูต",
@@ -23041,7 +23901,8 @@
         "ก."
       ],
       "synonyms": [
-        "พบปะ"
+        "พบปะ",
+        "พบกัน"
       ],
       "register": "ภาษาพูด",
       "registerRank": 2,
@@ -23160,6 +24021,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เจียดให้",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ปัน"
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เจียมตัว",
       "pos": [
         "ว."
@@ -23184,6 +24058,20 @@
       "registerRank": 3,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "แจกจ่าย",
+      "pos": [
+        "ก."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "จ่าย",
+        "ปัน"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
     },
     {
       "word": "แจกแจง",
@@ -24403,6 +25291,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เฉดสี",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "โทนสี",
+        "สี"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "เฉลย",
       "pos": [
         "น.",
@@ -24411,6 +25313,7 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "synonyms": [
+        "คำตอบ",
         "ตอบ"
       ],
       "source": "thai-wordnet",
@@ -24451,7 +25354,8 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "synonyms": [
-        "ฟัน"
+        "ฟัน",
+        "ตัด"
       ],
       "source": "thai-wordnet",
       "reviewStatus": "reviewed"
@@ -24466,6 +25370,19 @@
       ],
       "register": "ภาษาพูด",
       "registerRank": 2,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ไฉน",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ทำไม"
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -24648,6 +25565,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ช่วงบ่าย",
+      "pos": [
+        "น.",
+        "ว."
+      ],
+      "synonyms": [
+        "บ่าย"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "ช่วงวัน",
       "pos": [
         "น."
@@ -24673,6 +25604,20 @@
       "registerRank": 5,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ช่วงสาย",
+      "pos": [
+        "น.",
+        "ว."
+      ],
+      "synonyms": [
+        "สาย"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ช่วงอายุ",
@@ -25339,12 +26284,54 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ชั่วครู่",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "นาที"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "ชั่วชั่วโมง",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "ชั่วโมง"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "ชั่วโมง",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "ชั่วชั่วโมง",
+        "หนึ่งชั่วโมง",
+        "หกสิบนาที"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ชัวร์",
       "pos": [
         "ว."
       ],
       "synonyms": [
-        "แน่นอน"
+        "แน่นอน",
+        "แน่"
       ],
       "register": "ภาษาพูด",
       "registerRank": 2,
@@ -25997,6 +26984,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ชำระราคา",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "จ่ายเงิน"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ชำระร่างกาย",
       "pos": [
         "ก."
@@ -26452,6 +27452,34 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ชื่อ",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ชื่อเรียก",
+        "นาม",
+        "สมญา"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ชื่อเรียก",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "ชื่อ"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ชุด",
@@ -27563,6 +28591,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เช่นไร",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "อย่างไร"
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เชษฐา",
       "pos": [
         "น."
@@ -27573,6 +28614,22 @@
       "register": "วรรณกรรม",
       "registerRank": 6,
       "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เช้า",
+      "pos": [
+        "น.",
+        "ว."
+      ],
+      "synonyms": [
+        "ตอนเช้า",
+        "ยามเช้า",
+        "รุ่งอรุณ"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
       "reviewStatus": "reviewed"
     },
     {
@@ -27994,6 +29051,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ใช่",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ใช่แล้ว",
+        "ถูกแล้ว",
+        "ถูกต้อง"
+      ],
+      "source": "editorial-seed",
+      "register": "ภาษาพูด",
+      "registerRank": 2,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ใช้",
       "pos": [
         "ก."
@@ -28122,9 +29194,11 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "synonyms": [
-        "ใช้"
+        "ใช้",
+        "นำมาใช้",
+        "ใช้ประโยชน์"
       ],
-      "source": "thai-wordnet",
+      "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
     {
@@ -28285,6 +29359,19 @@
       "registerRank": 5,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ใช้ประโยชน์",
+      "pos": [
+        "ก."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ใช้งาน"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ใช้ปลายดาบโจมตี",
@@ -28560,6 +29647,19 @@
       "registerRank": 5,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ใช่แล้ว",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ใช่"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ใช้โล่ป้องกัน",
@@ -29391,6 +30491,22 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ซ้าย",
+      "pos": [
+        "น.",
+        "ว."
+      ],
+      "synonyms": [
+        "ข้างซ้าย",
+        "ด้านซ้าย",
+        "เบื้องซ้าย"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ซิ่งรถ",
       "pos": [
         "ก."
@@ -30021,6 +31137,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เซ็น",
+      "pos": [
+        "ก."
+      ],
+      "register": "ภาษาพูด",
+      "registerRank": 2,
+      "synonyms": [
+        "เซ็นชื่อ",
+        "ลงชื่อ",
+        "ลงนาม"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เซ็นชื่อ",
       "pos": [
         "ก."
@@ -30456,6 +31587,32 @@
       "registerRank": 3,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ด้วยตนเอง",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "เอง"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "ด้วยตัวเอง",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "เอง"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ด้วยเหตุที่",
@@ -31013,6 +32170,34 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ด้านขวา",
+      "pos": [
+        "น.",
+        "ว."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ขวา"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "ด้านซ้าย",
+      "pos": [
+        "น.",
+        "ว."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ซ้าย"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "ด้านนอก",
       "pos": [
         "ว."
@@ -31042,12 +32227,15 @@
       "word": "ด้านบน",
       "pos": [
         "ว.",
-        "น."
+        "น.",
+        "บ."
       ],
       "register": "ทางการ",
       "registerRank": 5,
       "synonyms": [
-        "ข้างบน"
+        "ยอด",
+        "ข้างบน",
+        "บน"
       ],
       "source": "thai-wordnet",
       "reviewStatus": "reviewed"
@@ -31061,7 +32249,8 @@
       "register": "ทางการ",
       "registerRank": 5,
       "synonyms": [
-        "ข้างล่าง"
+        "ข้างล่าง",
+        "ล่าง"
       ],
       "source": "thai-wordnet",
       "reviewStatus": "reviewed"
@@ -33635,6 +34824,35 @@
       "reviewStatus": "inferred"
     },
     {
+      "word": "เดียว",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "หนึ่งเดียว",
+        "เพียงหนึ่ง",
+        "เดี่ยว"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เดี่ยว",
+      "pos": [
+        "ก.",
+        "ว."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "เดียว"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "เดี๋ยว",
       "pos": [
         "ว."
@@ -33716,6 +34934,34 @@
       "registerRank": 6,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เดือน",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "รอบเดือน",
+        "รายเดือน",
+        "เดือนปฏิทิน"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เดือนปฏิทิน",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "เดือน"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "แดก",
@@ -34643,6 +35889,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ตนเอง",
+      "pos": [
+        "น.",
+        "ว."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "เอง"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "ตบเบา ๆ ที่ไหล่",
       "pos": [
         "ก."
@@ -34844,6 +36104,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ตรงไหน",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ที่ไหน"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "ตรวจ",
       "pos": [
         "ก."
@@ -34852,12 +36125,11 @@
       "registerRank": 3,
       "synonyms": [
         "เช็ก",
-        "ดู",
-        "ตรวจเช็ก",
-        "ตรวจดู"
+        "ตรวจดู",
+        "พิจารณา"
       ],
-      "source": "thai-wordnet",
-      "reviewStatus": "inferred"
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
     },
     {
       "word": "ตรวจการบ้าน",
@@ -35472,7 +36744,8 @@
       "synonyms": [
         "เช็ก",
         "ตรวจดู",
-        "พิจารณาตรวจสอบ"
+        "พิจารณาตรวจสอบ",
+        "ตรวจ"
       ],
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
@@ -36428,6 +37701,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ตอน",
+      "pos": [
+        "น.",
+        "ก."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ส่วน"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "ตอนกลางคืน",
       "pos": [
         "น.",
@@ -36438,6 +37725,22 @@
       "synonyms": [
         "กลางคืน",
         "คืน"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "ตอนเช้า",
+      "pos": [
+        "น.",
+        "ว."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ยามเช้า",
+        "รุ่งอรุณ",
+        "เช้า"
       ],
       "source": "thai-wordnet",
       "reviewStatus": "inferred"
@@ -36456,6 +37759,20 @@
       ],
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ตอนบ่าย",
+      "pos": [
+        "น.",
+        "ว."
+      ],
+      "synonyms": [
+        "บ่าย"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ต้อนรับ",
@@ -36484,6 +37801,33 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ตอนสาย",
+      "pos": [
+        "น.",
+        "ว."
+      ],
+      "synonyms": [
+        "สาย"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "ตอนไหน",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "เมื่อไร"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ตอบ",
@@ -37010,7 +38354,8 @@
       "registerRank": 6,
       "synonyms": [
         "ดวงอาทิตย์",
-        "สุริยัน"
+        "สุริยัน",
+        "อาทิตย์"
       ],
       "source": "thai-wordnet",
       "reviewStatus": "reviewed"
@@ -37688,6 +39033,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ตัด",
+      "pos": [
+        "ก."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "หั่น",
+        "เฉือน",
+        "ฟัน"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ตัดขวางเป็นวง",
       "pos": [
         "ก."
@@ -38101,6 +39461,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ตัวเลข",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "เลข",
+        "หมายเลข"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "ตัวสั่น",
       "pos": [
         "ก."
@@ -38198,6 +39572,19 @@
       ],
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ต่างคนต่าง",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "แยกกัน"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ต่างแดน",
@@ -38576,6 +39963,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ตำแหน่ง",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "จุด",
+        "หน้าที่"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "ตำให้แหลก",
       "pos": [
         "ก."
@@ -38867,6 +40268,19 @@
       "registerRank": 5,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ติดตัว",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "พก"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ติดตาม",
@@ -40086,6 +41500,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เติมข้อมูล",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "กรอก"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "เติมคิ้ว",
       "pos": [
         "ก."
@@ -40842,7 +42269,8 @@
       "register": "ภาษาพูด",
       "registerRank": 2,
       "synonyms": [
-        "คะแนน"
+        "คะแนน",
+        "จุด"
       ],
       "source": "thai-wordnet",
       "reviewStatus": "reviewed"
@@ -41419,6 +42847,19 @@
       ],
       "source": "thai-wordnet",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ถ่วง",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "หนัก"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ถ้วยชัยชนะ",
@@ -43407,6 +44848,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ถูกต้อง",
+      "pos": [
+        "ว."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ถูก",
+        "แม่นยำ",
+        "เที่ยงตรง"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ถูกไฟไหม้",
       "pos": [
         "ก.",
@@ -43419,6 +44875,19 @@
       "registerRank": 5,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ถูกแล้ว",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ใช่"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ถูเปลือกตา",
@@ -45261,6 +46730,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ทั้งปวง",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ทุก"
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ทั้งมวล",
       "pos": [
         "ว."
@@ -45612,6 +47094,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ทายาท",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "ลูก"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "ทายาบนผิว",
       "pos": [
         "ก."
@@ -45764,6 +47259,19 @@
       "registerRank": 5,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ทำการจอง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "จอง"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ทำการบ้าน",
@@ -46180,6 +47688,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ทำได้",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "สามารถ"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "ทำตามคำสั่ง",
       "pos": [
         "ก."
@@ -46339,6 +47860,21 @@
       "reviewStatus": "inferred"
     },
     {
+      "word": "ทำไม",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "เพราะอะไร",
+        "เหตุใด",
+        "ไฉน"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ทำรายการซื้อบัตรเข้าชมการแสดง",
       "pos": [
         "ก."
@@ -46431,6 +47967,19 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ทำเล",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "สถานที่"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ทำแล็บ",
@@ -47102,6 +48651,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ที่",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "จุด",
+        "ดิน",
+        "สถานที่"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "ที่ดี",
       "pos": [
         "ว."
@@ -47115,6 +48679,19 @@
       "reviewStatus": "inferred"
     },
     {
+      "word": "ที่ใด",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ที่ไหน"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "ที่ตั้งกองทัพ",
       "pos": [
         "น."
@@ -47124,6 +48701,21 @@
       ],
       "register": "ทางการ",
       "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ที่ทำงาน",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ออฟฟิศ",
+        "สำนักงาน",
+        "สถานประกอบการ"
+      ],
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -47275,6 +48867,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ที่หยุดรถ",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "สถานี"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "ทีหลัง",
       "pos": [
         "ว."
@@ -47285,6 +48890,21 @@
       "register": "ภาษาพูด",
       "registerRank": 2,
       "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ที่ไหน",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ตรงไหน",
+        "แห่งไหน",
+        "ที่ใด"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
       "reviewStatus": "reviewed"
     },
     {
@@ -47340,6 +48960,34 @@
       ],
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ทุก",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ทุกๆ",
+        "ทั้งหมด",
+        "ทั้งปวง"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ทุกๆ",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ทุก"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ทุกครั้ง",
@@ -47982,6 +49630,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เที่ยงตรง",
+      "pos": [
+        "ว."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "แน่นอน",
+        "แม่นยำ",
+        "ถูกต้อง"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "เทียน",
       "pos": [
         "น."
@@ -48009,6 +49672,20 @@
       "reviewStatus": "inferred"
     },
     {
+      "word": "เทียบ",
+      "pos": [
+        "ก."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "เปรียบ",
+        "เปรียบเทียบ"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "เทียบข้อมูล",
       "pos": [
         "ก."
@@ -48031,6 +49708,19 @@
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เทียบเคียง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เปรียบเทียบ"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -48261,6 +49951,20 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "โทนสี",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "เฉดสี",
+        "สี"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
     },
     {
       "word": "โทมัส คิด",
@@ -48745,6 +50449,34 @@
       ],
       "source": "thai-wordnet",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "นม",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "น้ำนม",
+        "นมสด",
+        "ผลิตภัณฑ์นม"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "นมสด",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "นม"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "นรก",
@@ -50068,6 +51800,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "นัดพบ",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "พบ",
+        "พบกัน"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "นัดพิจารณาคดี",
       "pos": [
         "ก."
@@ -50161,6 +51907,34 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "นั่น",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "นั้น"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "นั้น",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "อันนั้น",
+        "สิ่งนั้น",
+        "นั่น"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
       "reviewStatus": "reviewed"
     },
     {
@@ -50311,6 +52085,34 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "น่าชื่นชม",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "น่ารัก"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "นาที",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "ชั่วครู่",
+        "ครู่หนึ่ง",
+        "เวลาไม่นาน"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "นาน",
       "pos": [
         "ว."
@@ -50338,6 +52140,45 @@
       "register": "ภาษาพูด",
       "registerRank": 2,
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "นานา",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "หลาย"
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "น่าพิสมัย",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "น่ารัก"
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "นาม",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ชื่อ"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
     },
     {
       "word": "นาย",
@@ -50422,6 +52263,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "น่ารัก",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "น่าเอ็นดู",
+        "น่าชื่นชม",
+        "น่าพิสมัย"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "นารี",
       "pos": [
         "น."
@@ -50448,6 +52304,19 @@
       ],
       "source": "thai-wordnet",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "น่าเอ็นดู",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "น่ารัก"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "นำ",
@@ -50839,6 +52708,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "นำติดตัว",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "พก"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "นำทรัพย์สินเข้าจำนอง",
       "pos": [
         "ก."
@@ -50892,6 +52774,19 @@
       ],
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "น้ำนม",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "นม"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
     },
     {
       "word": "นำน้ำมาให้แขก",
@@ -51056,7 +52951,8 @@
         "ก."
       ],
       "synonyms": [
-        "ใช้"
+        "ใช้",
+        "ใช้งาน"
       ],
       "register": "กึ่งทางการ",
       "registerRank": 4,
@@ -51417,6 +53313,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "น้ำเสียง",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "เสียง"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "นำเสื้อขึ้นแขวน",
       "pos": [
         "ก."
@@ -51621,6 +53530,34 @@
       "register": "วรรณกรรม",
       "registerRank": 6,
       "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "นี่",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "นี้"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "นี้",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "อันนี้",
+        "สิ่งนี้",
+        "นี่"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
       "reviewStatus": "reviewed"
     },
     {
@@ -52025,6 +53962,19 @@
       "reviewStatus": "inferred"
     },
     {
+      "word": "เนื้อหา",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "เรื่อง"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "เนื้อหาการเรียน",
       "pos": [
         "น."
@@ -52048,6 +53998,21 @@
       "register": "ทางการ",
       "registerRank": 5,
       "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "แน่",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ชัวร์",
+        "แน่นอน",
+        "มั่นใจ"
+      ],
+      "source": "editorial-seed",
+      "register": "ภาษาพูด",
+      "registerRank": 2,
       "reviewStatus": "reviewed"
     },
     {
@@ -52171,6 +54136,19 @@
       "registerRank": 5,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "แนวทาง",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "วิธี"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "แนวร่วม",
@@ -52428,6 +54406,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "บดเคี้ยว",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เคี้ยว"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "บดเคี้ยวเนิบช้า",
       "pos": [
         "ก."
@@ -52506,6 +54497,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "บดอาหาร",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เคี้ยว"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "บดอาหารด้วยฟัน",
       "pos": [
         "ก."
@@ -52551,6 +54555,22 @@
       ],
       "synonyms": [
         "เนื้อหาการเรียน"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "บน",
+      "pos": [
+        "บ.",
+        "ว."
+      ],
+      "synonyms": [
+        "ข้างบน",
+        "ด้านบน",
+        "เบื้องบน"
       ],
       "source": "editorial-seed",
       "register": "ทั่วไป",
@@ -52902,6 +54922,21 @@
       "registerRank": 6,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "บริเวณ",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ส่วน",
+        "สถานที่",
+        "จุด"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
     },
     {
       "word": "บริสุทธิ์",
@@ -53610,7 +55645,8 @@
         "ก."
       ],
       "synonyms": [
-        "ขับรถ"
+        "ขับรถ",
+        "ขับ"
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
@@ -53641,6 +55677,20 @@
       "register": "วรรณกรรม",
       "registerRank": 6,
       "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "บัญชีรายการ",
+      "pos": [
+        "น."
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "synonyms": [
+        "รายการ",
+        "รายชื่อ"
+      ],
+      "source": "thai-wordnet",
       "reviewStatus": "reviewed"
     },
     {
@@ -53736,6 +55786,19 @@
       ],
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "บันทึกข้อมูล",
+      "pos": [
+        "ก."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "กรอก"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
     },
     {
       "word": "บันทึกคลิปเสียง",
@@ -54291,6 +56354,22 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "บ่าย",
+      "pos": [
+        "น.",
+        "ว."
+      ],
+      "synonyms": [
+        "ตอนบ่าย",
+        "ช่วงบ่าย",
+        "ยามบ่าย"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "บ่ายเบี่ยงคำตอบ",
       "pos": [
         "ก."
@@ -54525,6 +56604,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "บุคคลใด",
+      "pos": [
+        "ส."
+      ],
+      "synonyms": [
+        "ใคร"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "บุคลากรพยาบาล",
       "pos": [
         "น."
@@ -54731,6 +56823,19 @@
       "registerRank": 5,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เบน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เลี้ยว"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "เบนกาย",
@@ -54962,12 +57067,42 @@
       "reviewStatus": "reviewed"
     },
     {
-      "word": "เบื้องบน",
+      "word": "เบื้องขวา",
       "pos": [
+        "น.",
         "ว."
       ],
       "synonyms": [
-        "ข้างบน"
+        "ขวา"
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เบื้องซ้าย",
+      "pos": [
+        "น.",
+        "ว."
+      ],
+      "synonyms": [
+        "ซ้าย"
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เบื้องบน",
+      "pos": [
+        "ว.",
+        "บ."
+      ],
+      "synonyms": [
+        "ข้างบน",
+        "บน"
       ],
       "register": "วรรณกรรม",
       "registerRank": 6,
@@ -54977,10 +57112,12 @@
     {
       "word": "เบื้องล่าง",
       "pos": [
-        "ว."
+        "ว.",
+        "น."
       ],
       "synonyms": [
-        "ข้างล่าง"
+        "ข้างล่าง",
+        "ล่าง"
       ],
       "register": "วรรณกรรม",
       "registerRank": 6,
@@ -55136,6 +57273,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "แบ่ง",
+      "pos": [
+        "ก."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "แบ่งออก",
+        "แบ่งปัน",
+        "จำแนก"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "แบ่งงาน",
       "pos": [
         "ก."
@@ -55158,7 +57310,8 @@
       "registerRank": 3,
       "synonyms": [
         "แบ่งให้",
-        "ปันให้"
+        "ปันให้",
+        "ปัน"
       ],
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
@@ -55171,10 +57324,25 @@
       "register": "ภาษาพูด",
       "registerRank": 2,
       "synonyms": [
-        "แบ่งปัน"
+        "แบ่ง",
+        "แบ่งปัน",
+        "ปัน"
       ],
       "source": "thai-wordnet",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "แบ่งออก",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "แบ่ง"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "แบ่งอาหารใส่ภาชนะเสิร์ฟ",
@@ -55228,6 +57396,19 @@
       "registerRank": 5,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "แบบไหน",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "อย่างไร"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "แบมือออก",
@@ -56051,7 +58232,8 @@
       "synonyms": [
         "ทำกับข้าว",
         "ทำอาหาร",
-        "ปรุงอาหาร"
+        "ปรุงอาหาร",
+        "ปรุง"
       ],
       "source": "thai-wordnet",
       "reviewStatus": "reviewed"
@@ -56356,6 +58538,19 @@
       "register": "ทางการ",
       "registerRank": 5,
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ประเด็น",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "เรื่อง"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ประเดี๋ยว",
@@ -56893,6 +59088,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ประสบกัน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "พบกัน"
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ประสบหน้า",
       "pos": [
         "ก."
@@ -57027,6 +59235,22 @@
       "source": "editorial-seed",
       "register": "ทั่วไป",
       "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ประหยัด",
+      "pos": [
+        "ก.",
+        "ว."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "เก็บออม",
+        "มัธยัสถ์",
+        "กระเหม็ดกระแหม่"
+      ],
+      "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
     {
@@ -57678,6 +59902,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ปริมาณ",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "จำนวน"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "ปริร้าว",
       "pos": [
         "ก.",
@@ -57716,6 +59953,34 @@
       "registerRank": 3,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ปรุง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ทำอาหาร",
+        "ประกอบอาหาร",
+        "ปรุงแต่ง"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ปรุงแต่ง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ปรุง"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ปรุงรส",
@@ -59294,6 +61559,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ปัญหา",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "เรื่องยุ่งยาก",
+        "ข้อขัดข้อง",
+        "อุปสรรค"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ปัดกวาด",
       "pos": [
         "ก."
@@ -59484,6 +61764,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ปัน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "แบ่งให้",
+        "แจกจ่าย",
+        "เจียดให้"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ปั้น",
       "pos": [
         "ก."
@@ -59584,6 +61879,47 @@
       ],
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ปากกา",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "เครื่องเขียน",
+        "ปากกาลูกลื่น",
+        "ปากกาหมึกซึม"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ปากกาลูกลื่น",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ปากกา"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "ปากกาหมึกซึม",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ปากกา"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ปาฏิหาริย์",
@@ -59710,7 +62046,9 @@
       "synonyms": [
         "หุบ",
         "งับ",
-        "ปิดลง"
+        "ปิดลง",
+        "ปิดใช้",
+        "หยุดใช้งาน"
       ],
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
@@ -59875,6 +62213,21 @@
       "register": "ทางการ",
       "registerRank": 5,
       "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ปิดใช้",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ปิด",
+        "หยุดใช้งาน",
+        "ระงับการใช้งาน"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
       "reviewStatus": "reviewed"
     },
     {
@@ -60776,6 +63129,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ปี",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ขวบปี",
+        "รายปี",
+        "ปีปฏิทิน"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ปี้",
       "pos": [
         "ก."
@@ -60908,6 +63276,19 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ปีปฏิทิน",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "ปี"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ปีศาจ",
@@ -61115,6 +63496,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เป็นไปได้",
+      "pos": [
+        "ก.",
+        "ว."
+      ],
+      "synonyms": [
+        "อาจ"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "เป็นพิเศษ",
       "pos": [
         "ว."
@@ -61263,6 +63658,35 @@
       "registerRank": 3,
       "source": "editorial-seed",
       "reviewStatus": "inferred"
+    },
+    {
+      "word": "เปรียบ",
+      "pos": [
+        "ก."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "เทียบ",
+        "เปรียบเทียบ"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "เปรียบเทียบ",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เทียบ",
+        "เปรียบ",
+        "เทียบเคียง"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
     },
     {
       "word": "เปรียบเทียบข้อมูล",
@@ -61453,6 +63877,20 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เปล่า",
+      "pos": [
+        "ว."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ว่าง",
+        "ไม่ใช่"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
     },
     {
       "word": "เปลี่ยน",
@@ -61683,6 +64121,19 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เปลี่ยนทิศ",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เลี้ยว"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "เปลี่ยนทิศไปด้านขวา",
@@ -62113,7 +64564,9 @@
       "synonyms": [
         "แง้ม",
         "เปิดออก",
-        "ไข"
+        "ไข",
+        "เปิดใช้",
+        "เปิดใช้งาน"
       ],
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
@@ -62438,6 +64891,35 @@
       "registerRank": 2,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เปิดใช้",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เปิด",
+        "เริ่มใช้งาน",
+        "เปิดใช้งาน"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เปิดใช้งาน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เปิด",
+        "เปิดใช้"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "เปิดใช้งานชุดไฟสำหรับการถ่ายภาพ",
@@ -64275,6 +66757,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ผลเฉลย",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "คำตอบ"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "ผลผลิต",
       "pos": [
         "น."
@@ -64569,6 +67064,19 @@
       "registerRank": 5,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ผลิตภัณฑ์นม",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "นม"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ผลิบาน",
@@ -64965,7 +67473,8 @@
         "น."
       ],
       "synonyms": [
-        "เสื้อคลุม"
+        "เสื้อคลุม",
+        "ผ้าห่ม"
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
@@ -65226,6 +67735,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ผ้านวม",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ผ้าห่ม"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "ผ่ายผอม",
       "pos": [
         "ว."
@@ -65235,6 +67757,21 @@
       ],
       "register": "วรรณกรรม",
       "registerRank": 6,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ผ้าห่ม",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ผ้าคลุม",
+        "ผ้านวม",
+        "เครื่องนอน"
+      ],
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -65805,11 +68342,10 @@
       "synonyms": [
         "ชาย",
         "บุรุษ",
-        "บุรุษเพศ",
-        "เพศชาย"
+        "สุภาพบุรุษ"
       ],
-      "source": "thai-wordnet",
-      "reviewStatus": "inferred"
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
     },
     {
       "word": "ผู้ใช้แรงงาน",
@@ -65870,6 +68406,19 @@
       "registerRank": 5,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ผู้ใด",
+      "pos": [
+        "ส."
+      ],
+      "synonyms": [
+        "ใคร"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ผู้ใต้บังคับบัญชา",
@@ -65947,6 +68496,19 @@
         "หัวหน้า",
         "ประมุข"
       ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ผู้บรรลุนิติภาวะ",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "ผู้ใหญ่"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
@@ -66085,6 +68647,19 @@
       "registerRank": 6,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ผู้มีอายุ",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "ผู้ใหญ่"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ผู้เยาว์",
@@ -66273,12 +68848,27 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "synonyms": [
-        "นารี",
+        "หญิง",
         "สตรี",
-        "หญิง"
+        "สุภาพสตรี"
       ],
-      "source": "thai-wordnet",
-      "reviewStatus": "inferred"
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ผู้ใหญ่",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "คนโต",
+        "ผู้มีอายุ",
+        "ผู้บรรลุนิติภาวะ"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
     },
     {
       "word": "เผชิญหน้า",
@@ -66549,6 +69139,19 @@
       ],
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "แผ่นกระดาษ",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "กระดาษ"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "แผนการ",
@@ -67773,6 +70376,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "พก",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "พกพา",
+        "นำติดตัว",
+        "ติดตัว"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "พกกุญแจบ้าน",
       "pos": [
         "ก."
@@ -67785,6 +70403,19 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "พกพา",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "พก"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "พงไพร",
@@ -67884,7 +70515,9 @@
         "เจอ",
         "เห็น",
         "ค้นพบ",
-        "ประสบ"
+        "ประสบ",
+        "พบกัน",
+        "นัดพบ"
       ],
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
@@ -67895,12 +70528,14 @@
         "ก."
       ],
       "synonyms": [
-        "พบปะ"
+        "เจอกัน",
+        "นัดพบ",
+        "ประสบกัน"
       ],
+      "source": "editorial-seed",
       "register": "ทั่วไป",
       "registerRank": 3,
-      "source": "editorial-seed",
-      "reviewStatus": "inferred"
+      "reviewStatus": "reviewed"
     },
     {
       "word": "พบกันครึ่งทาง",
@@ -69357,7 +71992,8 @@
         "ก."
       ],
       "synonyms": [
-        "หลงทาง"
+        "หลงทาง",
+        "หลง"
       ],
       "register": "วรรณกรรม",
       "registerRank": 6,
@@ -69384,6 +72020,19 @@
       ],
       "synonyms": [
         "ตกเครื่อง"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "พลานามัย",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "สุขภาพ"
       ],
       "register": "ทางการ",
       "registerRank": 5,
@@ -69675,6 +72324,19 @@
       ],
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "พอสมควร",
+      "pos": [
+        "ว."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ค่อนข้าง"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
     },
     {
       "word": "พ่อหนุ่ม",
@@ -71147,6 +73809,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "พึง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ควร"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "พึงพอใจ",
       "pos": [
         "ก.",
@@ -72045,6 +74720,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เพราะอะไร",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ทำไม"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "เพลง",
       "pos": [
         "น."
@@ -72468,6 +75156,36 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เพียง",
+      "pos": [
+        "ว."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "เท่านั้น",
+        "เพียงแค่",
+        "แค่"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "เพียงแค่",
+      "pos": [
+        "ว."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "เท่านั้น",
+        "เพียง",
+        "แค่"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "เพียงเท่านั้น",
       "pos": [
         "ว."
@@ -72507,6 +75225,19 @@
       "registerRank": 5,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เพียงหนึ่ง",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "เดียว"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "เพียรพยายาม",
@@ -73176,9 +75907,11 @@
       "register": "ภาษาพูด",
       "registerRank": 2,
       "synonyms": [
-        "คนรัก"
+        "คนรัก",
+        "คู่รัก",
+        "หวานใจ"
       ],
-      "source": "thai-wordnet",
+      "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
     {
@@ -73630,6 +76363,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ภาวะร่างกาย",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "สุขภาพ"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "ภาวะแห้งแล้ง",
       "pos": [
         "น."
@@ -73884,6 +76630,7 @@
       "register": "วรรณกรรม",
       "registerRank": 6,
       "synonyms": [
+        "วิธี",
         "ทาง"
       ],
       "source": "thai-wordnet",
@@ -74527,6 +77274,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "มัธยัสถ์",
+      "pos": [
+        "ก.",
+        "ว."
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "synonyms": [
+        "ประหยัด"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "มันจนเลี่ยน",
       "pos": [
         "ว."
@@ -74705,7 +77466,9 @@
       "register": "วรรณกรรม",
       "registerRank": 6,
       "synonyms": [
-        "มาก"
+        "จำนวนมาก",
+        "มาก",
+        "หลาย"
       ],
       "source": "thai-wordnet",
       "reviewStatus": "reviewed"
@@ -75101,6 +77864,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "มิใช่",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ไม่ใช่"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "มิได้เคย",
       "pos": [
         "ว."
@@ -75247,6 +78023,19 @@
       ],
       "source": "thai-wordnet",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "มีความสามารถ",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "สามารถ"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "มีความสำคัญ",
@@ -75525,7 +78314,8 @@
     {
       "word": "มีน้ำหนัก",
       "pos": [
-        "ก."
+        "ก.",
+        "ว."
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
@@ -76182,6 +78972,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "มูลเหตุ",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "เหตุผล"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เมฆ",
       "pos": [
         "น."
@@ -76412,6 +79215,34 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เมื่อใด",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "เมื่อไร"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "เมื่อไร",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ตอนไหน",
+        "เวลาไหน",
+        "เมื่อใด"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เมื่อวาน",
       "pos": [
         "น.",
@@ -76510,6 +79341,21 @@
       "registerRank": 6,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "แม่นยำ",
+      "pos": [
+        "ว."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "เที่ยงตรง",
+        "แน่นอน",
+        "ถูกต้อง"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
     },
     {
       "word": "แม่น้ำ",
@@ -76740,6 +79586,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ไม่ใช่",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "เปล่า",
+        "มิใช่",
+        "ไม่ถูกต้อง"
+      ],
+      "source": "editorial-seed",
+      "register": "ภาษาพูด",
+      "registerRank": 2,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ไม่ซื้อ",
       "pos": [
         "ก."
@@ -76751,6 +79612,19 @@
       "registerRank": 2,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ไม่ดี",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "แย่"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ไม่ตอบ",
@@ -76818,6 +79692,19 @@
       "registerRank": 2,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ไม่ถูกต้อง",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ไม่ใช่"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ไม่ธรรมดา",
@@ -77092,6 +79979,19 @@
       ],
       "synonyms": [
         "ง่าย"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "ไม่ยาว",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "สั้น"
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
@@ -78127,6 +81027,20 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ย่อ",
+      "pos": [
+        "ว.",
+        "ก."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "สั้น"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "ย่อกาย",
       "pos": [
         "ก."
@@ -78179,6 +81093,20 @@
       "registerRank": 6,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ยอด",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ด้านบน",
+        "จำนวน"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ยอดเยี่ยม",
@@ -78443,7 +81371,8 @@
       "register": "ทางการ",
       "registerRank": 5,
       "synonyms": [
-        "ถูก"
+        "ถูก",
+        "ประหยัด"
       ],
       "source": "thai-wordnet",
       "reviewStatus": "reviewed"
@@ -78622,12 +81551,66 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ยัง",
+      "pos": [
+        "ว."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ยังคง",
+        "ยังอยู่",
+        "ยังคงอยู่"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ยั้ง",
       "pos": [
         "ก."
       ],
       "synonyms": [
         "หยุด"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "ยังคง",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ยัง"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "ยังคงอยู่",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ยัง"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "ยังไง",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "อย่างไร"
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
@@ -78674,6 +81657,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ยังอยู่",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ยัง"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "ยับยั้ง",
       "pos": [
         "ก."
@@ -78702,6 +81698,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ยาก",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ลำบาก",
+        "ยุ่งยาก",
+        "ยากลำบาก"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ยากจน",
       "pos": [
         "ว."
@@ -78713,6 +81724,19 @@
       ],
       "source": "thai-wordnet",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ยากลำบาก",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ยาก"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ย่าง",
@@ -78910,6 +81934,64 @@
       "registerRank": 6,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ยามค่ำคืน",
+      "pos": [
+        "น.",
+        "ว."
+      ],
+      "synonyms": [
+        "กลางคืน"
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ยามเช้า",
+      "pos": [
+        "น.",
+        "ว."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ตอนเช้า",
+        "รุ่งอรุณ",
+        "เช้า"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "ยามบ่าย",
+      "pos": [
+        "น.",
+        "ว."
+      ],
+      "synonyms": [
+        "บ่าย"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "ยามสาย",
+      "pos": [
+        "น.",
+        "ว."
+      ],
+      "synonyms": [
+        "สาย"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ย้ายของ",
@@ -79148,6 +82230,19 @@
       "registerRank": 6,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ย่ำแย่",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "แย่"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ย่ำลงในโคลน",
@@ -80746,6 +83841,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ยื่นสมัคร",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "สมัคร"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "ยื่นสมัครเข้ารับการสอบ",
       "pos": [
         "ก."
@@ -80950,6 +84058,19 @@
       ],
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ยุ่งยาก",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ยาก"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ยุติ",
@@ -81512,9 +84633,11 @@
       "register": "ภาษาพูด",
       "registerRank": 2,
       "synonyms": [
-        "เลว"
+        "ไม่ดี",
+        "เลว",
+        "ย่ำแย่"
       ],
-      "source": "thai-wordnet",
+      "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
     {
@@ -81528,6 +84651,21 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "แยกกัน",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ต่างคนต่าง",
+        "คนละส่วน",
+        "แยกจากกัน"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
       "reviewStatus": "reviewed"
     },
     {
@@ -81596,6 +84734,19 @@
       "registerRank": 5,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "แยกจากกัน",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "แยกกัน"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "แยกตะกอนออกจากน้ำ",
@@ -82585,6 +85736,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "รส",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "รสชาติ",
+        "รสอาหาร",
+        "รสสัมผัส"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "รสกลมกล่อม",
       "pos": [
         "ว."
@@ -82650,6 +85816,19 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "รสชาติ",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "รส"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
     },
     {
       "word": "รสนุ่มนวล",
@@ -82745,6 +85924,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "รสสัมผัส",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "รส"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "รสอ่อน",
       "pos": [
         "ว."
@@ -82757,6 +85949,19 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "รสอาหาร",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "รส"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "รหัสผ่าน",
@@ -83309,6 +86514,32 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "รอบเดือน",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "เดือน"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "รอบสัปดาห์",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "สัปดาห์"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "รอยแผล",
       "pos": [
         "น."
@@ -83571,6 +86802,19 @@
       ],
       "synonyms": [
         "ปิดแจ้งเตือน"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ระงับการใช้งาน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ปิดใช้"
       ],
       "register": "ทางการ",
       "registerRank": 5,
@@ -86486,10 +89730,12 @@
     {
       "word": "ราตรี",
       "pos": [
-        "น."
+        "น.",
+        "ว."
       ],
       "synonyms": [
-        "คืน"
+        "คืน",
+        "กลางคืน"
       ],
       "register": "วรรณกรรม",
       "registerRank": 6,
@@ -86563,6 +89809,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "รายการ",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "รายชื่อ",
+        "บัญชีรายการ",
+        "สารบัญ"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ร่ายคาถา",
       "pos": [
         "ก."
@@ -86588,6 +89849,19 @@
       "registerRank": 2,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "รายงานข่าว",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "ข่าว"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "รายงานความคืบหน้า",
@@ -86645,6 +89919,33 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "รายชื่อ",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "บัญชีรายการ",
+        "รายการ"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "รายเดือน",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "เดือน"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "รายได้ประจำ",
       "pos": [
         "น."
@@ -86656,6 +89957,20 @@
       "registerRank": 5,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "รายปี",
+      "pos": [
+        "ว.",
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ปี"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ร่ายมนตร์",
@@ -87321,6 +90636,22 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "รุ่งอรุณ",
+      "pos": [
+        "น.",
+        "ว."
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
+      "synonyms": [
+        "ตอนเช้า",
+        "ยามเช้า",
+        "เช้า"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "รุ่นน้อง",
       "pos": [
         "น."
@@ -87481,13 +90812,11 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "synonyms": [
-        "ทรง",
         "ภาพ",
-        "ภาพถ่าย",
-        "รูปถ่าย",
-        "รูปทรง"
+        "รูปร่าง",
+        "รูปแบบ"
       ],
-      "source": "thai-wordnet",
+      "source": "editorial-seed",
       "reviewStatus": "reviewed"
     },
     {
@@ -87544,6 +90873,19 @@
       ],
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "รูปแบบ",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "รูป"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
     },
     {
       "word": "รูปภาพ",
@@ -88031,6 +91373,19 @@
       "registerRank": 3,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เริ่มใช้งาน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เปิดใช้"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "เริ่มเดินป่า",
@@ -88925,6 +92280,34 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เรื่อง",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "เรื่องราว",
+        "ประเด็น",
+        "เนื้อหา"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เรื่องยุ่งยาก",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "ปัญหา"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "เรืองรอง",
       "pos": [
         "ว.",
@@ -88938,6 +92321,19 @@
       "registerRank": 6,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เรื่องราว",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "เรื่อง"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
     },
     {
       "word": "เรืองแสง",
@@ -89591,7 +92987,9 @@
         "ก."
       ],
       "synonyms": [
-        "เซ็นชื่อ"
+        "เซ็นชื่อ",
+        "สมัคร",
+        "เซ็น"
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
@@ -89675,6 +93073,19 @@
       "registerRank": 5,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ลงทะเบียน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "สมัคร"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ลงทะเบียนเข้าพัก",
@@ -89784,6 +93195,20 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ลงนาม",
+      "pos": [
+        "ก."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "เซ็น",
+        "เซ็นชื่อ"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ลงนามข้อตกลงสงบศึก",
@@ -90834,6 +94259,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ล่วงคอ",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "กลืน"
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ล่วงผ่าน",
       "pos": [
         "ก."
@@ -91578,6 +95016,22 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ล่าง",
+      "pos": [
+        "น.",
+        "ว."
+      ],
+      "synonyms": [
+        "ข้างล่าง",
+        "ด้านล่าง",
+        "เบื้องล่าง"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "ล้าง",
       "pos": [
         "ก."
@@ -92012,6 +95466,19 @@
       "registerRank": 5,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ลำบาก",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ยาก"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ลิขิต",
@@ -92455,17 +95922,12 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "synonyms": [
-        "โซ่ทองคล้องใจ",
-        "เด็ก",
         "บุตร",
-        "บุตรธิดา",
-        "ผลไม้",
-        "พยานรัก",
-        "เลือดเนื้อเชื้อไข",
-        "เลือดในอก"
+        "ลูกหลาน",
+        "ทายาท"
       ],
-      "source": "thai-wordnet",
-      "reviewStatus": "inferred"
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
     },
     {
       "word": "ลูกกุญแจ",
@@ -92546,6 +96008,19 @@
       "registerRank": 2,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ลูกหลาน",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "ลูก"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ลูกเห็บตก",
@@ -92764,6 +96239,33 @@
       "registerRank": 4,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เลข",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ตัวเลข",
+        "หมายเลข"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "เลขหมาย",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "หมายเลข"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "เล็งเป้า",
@@ -93184,6 +96686,21 @@
       "synonyms": [
         "ใช้ลิ้นแตะริมฝีปาก",
         "ไล้ลิ้นบนริมฝีปาก"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เลี้ยว",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "หักเลี้ยว",
+        "เบน",
+        "เปลี่ยนทิศ"
       ],
       "source": "editorial-seed",
       "register": "ทั่วไป",
@@ -94322,6 +97839,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "วงศ์วาน",
+      "pos": [
+        "น."
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
+      "synonyms": [
+        "ครอบครัว"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "วนาลัย",
       "pos": [
         "น."
@@ -94761,6 +98291,19 @@
       ],
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "วัสดุเขียน",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "กระดาษ"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "วาง",
@@ -96035,6 +99578,34 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "วิธี",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "วิธีการ",
+        "แนวทาง",
+        "กระบวนการ"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "วิธีการ",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "วิธี"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "วินโดว์",
       "pos": [
         "น."
@@ -96366,6 +99937,32 @@
         "ปัจจุบัน"
       ],
       "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "เวลาไม่นาน",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "นาที"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "เวลาไหน",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "เมื่อไร"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
       "reviewStatus": "inferred"
     },
     {
@@ -98115,6 +101712,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "สงวนไว้",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เก็บไว้"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "ส่งวิญญาณกลับ",
       "pos": [
         "ก."
@@ -98619,6 +102229,34 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "สถานที่",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ที่",
+        "บริเวณ",
+        "ทำเล"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "สถานประกอบการ",
+      "pos": [
+        "น."
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "synonyms": [
+        "ที่ทำงาน"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "สถานพยาบาล",
       "pos": [
         "น."
@@ -98669,6 +102307,34 @@
       ],
       "source": "thai-wordnet",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "สถานี",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "จุดจอด",
+        "ที่หยุดรถ",
+        "สถานีบริการ"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "สถานีบริการ",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "สถานี"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "สถาบันอุดมศึกษา",
@@ -98945,6 +102611,32 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "สมควร",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ควร"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "สมญา",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "ชื่อ"
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "สมเพช",
       "pos": [
         "ก."
@@ -98996,6 +102688,21 @@
         "อภิเษกสมรส"
       ],
       "source": "thai-wordnet",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "สมัคร",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ลงชื่อ",
+        "ยื่นสมัคร",
+        "ลงทะเบียน"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
       "reviewStatus": "reviewed"
     },
     {
@@ -99499,6 +103206,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ส่วน",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ตอน",
+        "ส่วนหนึ่ง",
+        "องค์ประกอบ"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "สวนกลับ",
       "pos": [
         "ก."
@@ -99542,10 +103264,12 @@
     {
       "word": "ส่วนหนึ่ง",
       "pos": [
-        "ว."
+        "ว.",
+        "น."
       ],
       "synonyms": [
-        "บางส่วน"
+        "บางส่วน",
+        "ส่วน"
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
@@ -101187,10 +104911,12 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "synonyms": [
-        "สั้นๆ"
+        "ไม่ยาว",
+        "กระชับ",
+        "ย่อ"
       ],
-      "source": "thai-wordnet",
-      "reviewStatus": "inferred"
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
     },
     {
       "word": "สั้นๆ",
@@ -101430,6 +105156,21 @@
         "งง",
         "งุนงง",
         "ฉงนสนเท่ห์"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "สัปดาห์",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "อาทิตย์",
+        "รอบสัปดาห์",
+        "เจ็ดวัน"
       ],
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
@@ -101686,6 +105427,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "สามารถ",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ทำได้",
+        "มีความสามารถ",
+        "อาจทำได้"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "สามี",
       "pos": [
         "น."
@@ -101696,6 +105452,22 @@
         "ผัว",
         "คู่สมรส",
         "ภัสดา"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "สาย",
+      "pos": [
+        "น.",
+        "ว."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ตอนสาย",
+        "ช่วงสาย",
+        "ยามสาย"
       ],
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
@@ -101983,6 +105755,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "สารบัญ",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "รายการ"
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "สารภาพ",
       "pos": [
         "ก."
@@ -102038,6 +105823,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "สาเหตุ",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "เหตุผล"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "สำคัญ",
       "pos": [
         "ว."
@@ -102064,6 +105862,19 @@
       "registerRank": 5,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "สำนักงาน",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ที่ทำงาน"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
     },
     {
       "word": "สำนักเรียน",
@@ -102158,6 +105969,20 @@
       "registerRank": 6,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "สำรอง",
+      "pos": [
+        "ว.",
+        "ก."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "จอง"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
     },
     {
       "word": "สำรองที่นั่งในขบวนรถ",
@@ -102336,6 +106161,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "สิ่งใด",
+      "pos": [
+        "ส."
+      ],
+      "synonyms": [
+        "อะไร"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "สิงโต",
       "pos": [
         "น."
@@ -102348,6 +106186,32 @@
       ],
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "สิ่งนั้น",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "นั้น"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "สิ่งนี้",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "นี้"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "สิ่งบำรุงดิน",
@@ -102427,6 +106291,19 @@
       "registerRank": 5,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "สิ่งไหน",
+      "pos": [
+        "ส."
+      ],
+      "synonyms": [
+        "อะไร"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "สิ้น",
@@ -102718,6 +106595,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "สี",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "สีสัน",
+        "เฉดสี",
+        "โทนสี"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "สีแก่",
       "pos": [
         "ว."
@@ -102932,6 +106824,19 @@
       "registerRank": 3,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "สีสัน",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "สี"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
     },
     {
       "word": "สีหน้าซีดเซียว",
@@ -103165,6 +107070,34 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "สุขภาพ",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "ภาวะร่างกาย",
+        "สุขภาวะ",
+        "พลานามัย"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "สุขภาวะ",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "สุขภาพ"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "สุขสบาย",
       "pos": [
         "ว."
@@ -103302,6 +107235,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "สุภาพบุรุษ",
+      "pos": [
+        "น."
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "synonyms": [
+        "ผู้ชาย"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "สุภาพเรียบร้อย",
       "pos": [
         "ว."
@@ -103315,12 +107261,38 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "สุภาพสตรี",
+      "pos": [
+        "น."
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "synonyms": [
+        "ผู้หญิง"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "สุมฟืน",
       "pos": [
         "ก."
       ],
       "synonyms": [
         "เติมฟืน"
+      ],
+      "register": "วรรณกรรม",
+      "registerRank": 6,
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "สุ้มเสียง",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "เสียง"
       ],
       "register": "วรรณกรรม",
       "registerRank": 6,
@@ -103349,7 +107321,8 @@
       "registerRank": 6,
       "synonyms": [
         "ดวงอาทิตย์",
-        "ตะวัน"
+        "ตะวัน",
+        "อาทิตย์"
       ],
       "source": "thai-wordnet",
       "reviewStatus": "reviewed"
@@ -104112,6 +108085,21 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เสียง",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "น้ำเสียง",
+        "สุ้มเสียง",
+        "กระแสเสียง"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เสียงกวน",
       "pos": [
         "น."
@@ -104513,6 +108501,21 @@
         "พยัคฆา"
       ],
       "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เสื้อ",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "เสื้อผ้า",
+        "เครื่องแต่งกาย",
+        "อาภรณ์"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
       "reviewStatus": "reviewed"
     },
     {
@@ -105750,6 +109753,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "หกสิบนาที",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "ชั่วโมง"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "หงุดหงิด",
       "pos": [
         "ก.",
@@ -105901,19 +109917,17 @@
     {
       "word": "หนัก",
       "pos": [
-        "ว.",
-        "ก."
+        "ว."
       ],
       "register": "ทั่วไป",
       "registerRank": 3,
       "synonyms": [
-        "คับคั่ง",
         "มีน้ำหนัก",
-        "อย่างร้ายแรง",
-        "อย่างรุนแรง"
+        "หนักหน่วง",
+        "ถ่วง"
       ],
-      "source": "thai-wordnet",
-      "reviewStatus": "inferred"
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
     },
     {
       "word": "หนักใจ",
@@ -105935,7 +109949,8 @@
         "ว."
       ],
       "synonyms": [
-        "แรง"
+        "แรง",
+        "หนัก"
       ],
       "register": "วรรณกรรม",
       "registerRank": 6,
@@ -106207,6 +110222,7 @@
       "register": "ทั่วไป",
       "registerRank": 3,
       "synonyms": [
+        "ตำแหน่ง",
         "งาน"
       ],
       "source": "thai-wordnet",
@@ -106484,6 +110500,32 @@
       "registerRank": 3,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "หนึ่งชั่วโมง",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "ชั่วโมง"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "หนึ่งเดียว",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "เดียว"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "หนึบเหนียว",
@@ -106814,6 +110856,60 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "หมอน",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "หมอนหนุน",
+        "หมอนนอน",
+        "หมอนรองศีรษะ"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "หมอนนอน",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "หมอน"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "หมอนรองศีรษะ",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "หมอน"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "หมอนหนุน",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "หมอน"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "หมอบกราบ",
       "pos": [
         "ก."
@@ -106959,6 +111055,21 @@
       "register": "วรรณกรรม",
       "registerRank": 6,
       "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "หมายเลข",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "เลข",
+        "เลขหมาย",
+        "ตัวเลข"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
       "reviewStatus": "reviewed"
     },
     {
@@ -107563,6 +111674,20 @@
       "reviewStatus": "inferred"
     },
     {
+      "word": "หยุดใช้งาน",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "ปิด",
+        "ปิดใช้"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "หยุดเถียง",
       "pos": [
         "ก."
@@ -107893,6 +112018,21 @@
       "register": "ภาษาพูด",
       "registerRank": 2,
       "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "หลง",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "หลงทาง",
+        "พลัดทาง",
+        "จำทางไม่ได้"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
       "reviewStatus": "reviewed"
     },
     {
@@ -108269,6 +112409,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "หลักเหตุผล",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "เหตุผล"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "หลัง",
       "pos": [
         "น.",
@@ -108556,6 +112709,21 @@
       "register": "วรรณกรรม",
       "registerRank": 6,
       "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "หลาย",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "มากมาย",
+        "จำนวนมาก",
+        "นานา"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
       "reviewStatus": "reviewed"
     },
     {
@@ -108849,7 +113017,8 @@
       "register": "ภาษาพูด",
       "registerRank": 2,
       "synonyms": [
-        "คนรัก"
+        "คนรัก",
+        "แฟน"
       ],
       "source": "thai-wordnet",
       "reviewStatus": "reviewed"
@@ -109511,6 +113680,19 @@
       "registerRank": 3,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "หักเลี้ยว",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "เลี้ยว"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "หักหลัง",
@@ -111099,6 +115281,34 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "เหตุใด",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ทำไม"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "เหตุผล",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "สาเหตุ",
+        "มูลเหตุ",
+        "หลักเหตุผล"
+      ],
+      "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "เห็น",
       "pos": [
         "ก."
@@ -112025,6 +116235,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "แห่งไหน",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ที่ไหน"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "แหบพร่า",
       "pos": [
         "ว."
@@ -112871,6 +117094,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "องค์ประกอบ",
+      "pos": [
+        "น."
+      ],
+      "register": "ทางการ",
+      "registerRank": 5,
+      "synonyms": [
+        "ส่วน"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "อดีต",
       "pos": [
         "น."
@@ -113200,6 +117436,19 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "อบอุ่น",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "อุ่น"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "อภัย",
       "pos": [
         "ก."
@@ -113391,6 +117640,21 @@
       ],
       "source": "thai-wordnet",
       "reviewStatus": "inferred"
+    },
+    {
+      "word": "อย่างไร",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ยังไง",
+        "แบบไหน",
+        "เช่นไร"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
     },
     {
       "word": "อย่างไรก็ดี",
@@ -113664,6 +117928,19 @@
       "registerRank": 5,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "ออกจะ",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ค่อนข้าง"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "ออกจากค่าย",
@@ -114434,6 +118711,34 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "ออฟฟิศ",
+      "pos": [
+        "น."
+      ],
+      "synonyms": [
+        "ที่ทำงาน"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "อะไร",
+      "pos": [
+        "ส."
+      ],
+      "synonyms": [
+        "สิ่งไหน",
+        "อันไหน",
+        "สิ่งใด"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "อัคคี",
       "pos": [
         "น."
@@ -114638,6 +118943,32 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "อันนั้น",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "นั้น"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "อันนี้",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "นี้"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "อั้นหายใจ",
       "pos": [
         "ก."
@@ -114649,6 +118980,19 @@
       "registerRank": 2,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "อันไหน",
+      "pos": [
+        "ส."
+      ],
+      "synonyms": [
+        "อะไร"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "อับจนหนทาง",
@@ -114971,17 +119315,48 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "อาจ",
+      "pos": [
+        "ก.",
+        "ว."
+      ],
+      "synonyms": [
+        "อาจจะ",
+        "บางที",
+        "เป็นไปได้"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
       "word": "อาจจะ",
       "pos": [
-        "ว."
+        "ว.",
+        "ก."
       ],
       "register": "ภาษาพูด",
       "registerRank": 2,
       "synonyms": [
-        "บางที"
+        "บางที",
+        "อาจ"
       ],
       "source": "thai-wordnet",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "อาจทำได้",
+      "pos": [
+        "ก."
+      ],
+      "synonyms": [
+        "สามารถ"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
     },
     {
       "word": "อาจหาญ",
@@ -115107,6 +119482,22 @@
       "registerRank": 6,
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "อาทิตย์",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ดวงอาทิตย์",
+        "ตะวัน",
+        "สัปดาห์",
+        "สุริยัน"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
     },
     {
       "word": "อาทิตย์อัสดง",
@@ -115578,7 +119969,8 @@
       "registerRank": 6,
       "synonyms": [
         "ชุด",
-        "เสื้อผ้า"
+        "เสื้อผ้า",
+        "เสื้อ"
       ],
       "source": "thai-wordnet",
       "reviewStatus": "reviewed"
@@ -116227,6 +120619,47 @@
       "reviewStatus": "reviewed"
     },
     {
+      "word": "อุ่น",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "อุ่นๆ",
+        "อบอุ่น",
+        "อุ่นสบาย"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "อุ่นๆ",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "อุ่น"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
+      "word": "อุ่นสบาย",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "อุ่น"
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "source": "editorial-seed",
+      "reviewStatus": "inferred"
+    },
+    {
       "word": "อุบัติ",
       "pos": [
         "ก."
@@ -116266,6 +120699,19 @@
       ],
       "source": "editorial-seed",
       "reviewStatus": "reviewed"
+    },
+    {
+      "word": "อุปสรรค",
+      "pos": [
+        "น."
+      ],
+      "register": "ทั่วไป",
+      "registerRank": 3,
+      "synonyms": [
+        "ปัญหา"
+      ],
+      "source": "thai-wordnet",
+      "reviewStatus": "inferred"
     },
     {
       "word": "อุ้ม",
@@ -116309,6 +120755,21 @@
       "register": "ภาษาพูด",
       "registerRank": 2,
       "source": "editorial-seed",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "word": "เอง",
+      "pos": [
+        "ว."
+      ],
+      "synonyms": [
+        "ด้วยตัวเอง",
+        "ตนเอง",
+        "ด้วยตนเอง"
+      ],
+      "source": "editorial-seed",
+      "register": "ทั่วไป",
+      "registerRank": 3,
       "reviewStatus": "reviewed"
     },
     {
